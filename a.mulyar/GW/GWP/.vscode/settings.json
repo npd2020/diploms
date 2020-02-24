@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.icc": "cpp",
+        "rotf": "cpp",
+        "mathf": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "*.tcc": "cpp",
+        "ratio": "cpp"
+    }
+}

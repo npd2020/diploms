@@ -1,0 +1,14 @@
+# Initialize kernel
+/run/initialize
+#
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+# 
+# neutron 20 MeV
+#
+/gun/particle neutron
+/gun/energy 14.1 MeV
+#
+/run/beamOn 1000000000

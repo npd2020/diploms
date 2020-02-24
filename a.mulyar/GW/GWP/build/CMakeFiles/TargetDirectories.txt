@@ -1,0 +1,8 @@
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/install/strip.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/install/local.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/GW.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/edit_cache.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/rebuild_cache.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/list_install_components.dir
+/home/andriy/Programs/G4W/GW/build/CMakeFiles/install.dir
