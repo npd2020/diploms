@@ -6,5 +6,5 @@ CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-stri
 
 CXX_DEFINES = -DG4INTY_USE_QT -DG4INTY_USE_XT -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_RAYTRACERX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB
 
-CXX_INCLUDES = -I/home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/lib/CLHEP-2.4.1.2/../../include -isystem /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4 -I/home/andriy/Programs/G4W/GW/include -isystem /home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/include -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore -isystem /usr/share/qt4/mkspecs/default -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL 
+CXX_INCLUDES = -I/home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/lib/CLHEP-2.4.1.2/../../include -isystem /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4 -I/home/andriy/Programs/G4W/GW/GWP/include -isystem /home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/include -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore -isystem /usr/share/qt4/mkspecs/default -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL 
 

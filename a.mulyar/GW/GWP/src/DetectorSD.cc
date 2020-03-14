@@ -20,6 +20,7 @@ G4bool DetectorSD::ProcessHits(G4Step* step, G4TouchableHistory* history)
   // Получаем кинетическую энергии частицы с предыдущего шага, т.е. начальную
   // кинетическую энегрию перед текущим шагом
   double energy = step->GetPreStepPoint()->GetKineticEnergy();
+  //double energy = step->GetTotalEnergyDeposit();
   // Вычисляем ширину бина (интерва) гистограммы
   double bin_width = (HIST_MAX - HIST_MIN) / NOBINS;
   // Задаем единичный вектор в направлении оси OY

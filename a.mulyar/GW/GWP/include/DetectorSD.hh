@@ -12,7 +12,7 @@ class DetectorSD: public G4VSensitiveDetector
     //Создадим гистограмму в которую запишем распределение
     //энергии протонов
     //Число бинов (интервалов в гистограмме)
-    static const int NOBINS = 1000;
+    static const int NOBINS = 10000;
     //Максимальная энергия в гистограмме
     const double HIST_MAX;
     //Минимальная энергия в гистограмме

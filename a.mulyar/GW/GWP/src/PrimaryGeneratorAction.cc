@@ -4,7 +4,6 @@
 #include "G4LogicalVolume.hh"
 #include "G4Box.hh"
 #include "G4RunManager.hh"
-#include "G4ParticleGun.hh"
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
 #include "G4SystemOfUnits.hh"
@@ -16,6 +15,11 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
 : G4VUserPrimaryGeneratorAction(),
   fParticleGun(nullptr)
 {
+  // G4GeneralParticleSource
+  //fGeneralParticleSource = new G4GeneralParticleSource();
+
+  
+  // ParticleGun
   // По умолчанию поставим 1 частицу
   G4int n_particle = 1;
   fParticleGun  = new G4ParticleGun(n_particle);
@@ -31,7 +35,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   // Встановлюєм позицію істочника
   fParticleGun->SetParticlePosition(G4ThreeVector(0*cm,-40*cm,0*cm));
   // Устанавливаем направление движение частицы по (x,y,z)
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,1.,0.));
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,-1.,0.));
 }
 
 // Деструктор
@@ -39,10 +43,12 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 {
   // удаляем созданный в конструкторе экземпляр класса источника G4ParticleGun
   delete fParticleGun;
+  //delete fGeneralParticleSource;
 }
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
   // Генерируем первичное событие
   fParticleGun->GeneratePrimaryVertex(anEvent);
+  //fGeneralParticleSource->GeneratePrimaryVertex(anEvent);
 }

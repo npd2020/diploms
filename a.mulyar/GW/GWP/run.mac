@@ -11,4 +11,4 @@
 /gun/particle neutron
 /gun/energy 14.1 MeV
 #
-/run/beamOn 1000000000
+/run/beamOn 100000

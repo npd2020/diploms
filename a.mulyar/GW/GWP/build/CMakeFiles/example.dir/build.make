@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW
+CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW/GWP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/build
+CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/GWP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/example.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/example.dir/flags.make
 
 CMakeFiles/example.dir/example.cc.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/example.cc.o: ../example.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/example.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cc.o -c /home/andriy/Programs/G4W/GW/example.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/example.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cc.o -c /home/andriy/Programs/G4W/GW/GWP/example.cc
 
 CMakeFiles/example.dir/example.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/example.cc > CMakeFiles/example.dir/example.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/example.cc > CMakeFiles/example.dir/example.cc.i
 
 CMakeFiles/example.dir/example.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/example.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/example.cc -o CMakeFiles/example.dir/example.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/example.cc -o CMakeFiles/example.dir/example.cc.s
 
 CMakeFiles/example.dir/example.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/example.dir/example.cc.o.provides.build: CMakeFiles/example.dir/examp
 
 CMakeFiles/example.dir/src/ActionInitialization.cc.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/example.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/ActionInitialization.cc.o -c /home/andriy/Programs/G4W/GW/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/example.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/ActionInitialization.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/ActionInitialization.cc
 
 CMakeFiles/example.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/src/ActionInitialization.cc > CMakeFiles/example.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/ActionInitialization.cc > CMakeFiles/example.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/example.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/src/ActionInitialization.cc -o CMakeFiles/example.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/ActionInitialization.cc -o CMakeFiles/example.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/example.dir/src/ActionInitialization.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/example.dir/src/ActionInitialization.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/example.dir/src/DetectorConstruction.cc.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/DetectorConstruction.cc.o -c /home/andriy/Programs/G4W/GW/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/DetectorConstruction.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/DetectorConstruction.cc
 
 CMakeFiles/example.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/src/DetectorConstruction.cc > CMakeFiles/example.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/DetectorConstruction.cc > CMakeFiles/example.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/example.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/src/DetectorConstruction.cc -o CMakeFiles/example.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/DetectorConstruction.cc -o CMakeFiles/example.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/example.dir/src/DetectorConstruction.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/example.dir/src/DetectorConstruction.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/example.dir/src/DetectorSD.cc.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/src/DetectorSD.cc.o: ../src/DetectorSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/src/DetectorSD.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/DetectorSD.cc.o -c /home/andriy/Programs/G4W/GW/src/DetectorSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/src/DetectorSD.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/DetectorSD.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/DetectorSD.cc
 
 CMakeFiles/example.dir/src/DetectorSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/DetectorSD.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/src/DetectorSD.cc > CMakeFiles/example.dir/src/DetectorSD.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/DetectorSD.cc > CMakeFiles/example.dir/src/DetectorSD.cc.i
 
 CMakeFiles/example.dir/src/DetectorSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/DetectorSD.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/src/DetectorSD.cc -o CMakeFiles/example.dir/src/DetectorSD.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/DetectorSD.cc -o CMakeFiles/example.dir/src/DetectorSD.cc.s
 
 CMakeFiles/example.dir/src/DetectorSD.cc.o.requires:
 
@@ -153,18 +153,42 @@ CMakeFiles/example.dir/src/DetectorSD.cc.o.provides: CMakeFiles/example.dir/src/
 CMakeFiles/example.dir/src/DetectorSD.cc.o.provides.build: CMakeFiles/example.dir/src/DetectorSD.cc.o
 
 
+CMakeFiles/example.dir/src/EventAction.cc.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/EventAction.cc.o: ../src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/example.dir/src/EventAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/EventAction.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/EventAction.cc
+
+CMakeFiles/example.dir/src/EventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/EventAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/EventAction.cc > CMakeFiles/example.dir/src/EventAction.cc.i
+
+CMakeFiles/example.dir/src/EventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/EventAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/EventAction.cc -o CMakeFiles/example.dir/src/EventAction.cc.s
+
+CMakeFiles/example.dir/src/EventAction.cc.o.requires:
+
+.PHONY : CMakeFiles/example.dir/src/EventAction.cc.o.requires
+
+CMakeFiles/example.dir/src/EventAction.cc.o.provides: CMakeFiles/example.dir/src/EventAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/EventAction.cc.o.provides.build
+.PHONY : CMakeFiles/example.dir/src/EventAction.cc.o.provides
+
+CMakeFiles/example.dir/src/EventAction.cc.o.provides.build: CMakeFiles/example.dir/src/EventAction.cc.o
+
+
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o -c /home/andriy/Programs/G4W/GW/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/src/PrimaryGeneratorAction.cc > CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/PrimaryGeneratorAction.cc > CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/src/PrimaryGeneratorAction.cc -o CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/PrimaryGeneratorAction.cc -o CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o.requires:
 
@@ -177,13 +201,64 @@ CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o.provides: CMakeFiles/exam
 CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o
 
 
+CMakeFiles/example.dir/src/RunAction.cc.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/RunAction.cc.o: ../src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/example.dir/src/RunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/RunAction.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/RunAction.cc
+
+CMakeFiles/example.dir/src/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/RunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/RunAction.cc > CMakeFiles/example.dir/src/RunAction.cc.i
+
+CMakeFiles/example.dir/src/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/RunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/RunAction.cc -o CMakeFiles/example.dir/src/RunAction.cc.s
+
+CMakeFiles/example.dir/src/RunAction.cc.o.requires:
+
+.PHONY : CMakeFiles/example.dir/src/RunAction.cc.o.requires
+
+CMakeFiles/example.dir/src/RunAction.cc.o.provides: CMakeFiles/example.dir/src/RunAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/RunAction.cc.o.provides.build
+.PHONY : CMakeFiles/example.dir/src/RunAction.cc.o.provides
+
+CMakeFiles/example.dir/src/RunAction.cc.o.provides.build: CMakeFiles/example.dir/src/RunAction.cc.o
+
+
+CMakeFiles/example.dir/src/SteppingAction.cc.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/example.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/src/SteppingAction.cc.o -c /home/andriy/Programs/G4W/GW/GWP/src/SteppingAction.cc
+
+CMakeFiles/example.dir/src/SteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/SteppingAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andriy/Programs/G4W/GW/GWP/src/SteppingAction.cc > CMakeFiles/example.dir/src/SteppingAction.cc.i
+
+CMakeFiles/example.dir/src/SteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/SteppingAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andriy/Programs/G4W/GW/GWP/src/SteppingAction.cc -o CMakeFiles/example.dir/src/SteppingAction.cc.s
+
+CMakeFiles/example.dir/src/SteppingAction.cc.o.requires:
+
+.PHONY : CMakeFiles/example.dir/src/SteppingAction.cc.o.requires
+
+CMakeFiles/example.dir/src/SteppingAction.cc.o.provides: CMakeFiles/example.dir/src/SteppingAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/SteppingAction.cc.o.provides.build
+.PHONY : CMakeFiles/example.dir/src/SteppingAction.cc.o.provides
+
+CMakeFiles/example.dir/src/SteppingAction.cc.o.provides.build: CMakeFiles/example.dir/src/SteppingAction.cc.o
+
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/example.cc.o" \
 "CMakeFiles/example.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/example.dir/src/DetectorConstruction.cc.o" \
 "CMakeFiles/example.dir/src/DetectorSD.cc.o" \
-"CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
+"CMakeFiles/example.dir/src/EventAction.cc.o" \
+"CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o" \
+"CMakeFiles/example.dir/src/RunAction.cc.o" \
+"CMakeFiles/example.dir/src/SteppingAction.cc.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -192,7 +267,10 @@ example: CMakeFiles/example.dir/example.cc.o
 example: CMakeFiles/example.dir/src/ActionInitialization.cc.o
 example: CMakeFiles/example.dir/src/DetectorConstruction.cc.o
 example: CMakeFiles/example.dir/src/DetectorSD.cc.o
+example: CMakeFiles/example.dir/src/EventAction.cc.o
 example: CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o
+example: CMakeFiles/example.dir/src/RunAction.cc.o
+example: CMakeFiles/example.dir/src/SteppingAction.cc.o
 example: CMakeFiles/example.dir/build.make
 example: /home/andriy/Programs/Geant4/geant4.10.06-install/lib/libG4Tree.so
 example: /home/andriy/Programs/Geant4/geant4.10.06-install/lib/libG4GMocren.so
@@ -239,7 +317,7 @@ example: /home/andriy/Programs/Geant4/geant4.10.06-install/lib/libG4intercoms.so
 example: /home/andriy/Programs/Geant4/geant4.10.06-install/lib/libG4global.so
 example: /home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/lib/libCLHEP-2.4.1.2.so
 example: CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andriy/Programs/G4W/GW/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -251,7 +329,10 @@ CMakeFiles/example.dir/requires: CMakeFiles/example.dir/example.cc.o.requires
 CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/ActionInitialization.cc.o.requires
 CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/DetectorConstruction.cc.o.requires
 CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/DetectorSD.cc.o.requires
+CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/EventAction.cc.o.requires
 CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o.requires
+CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/RunAction.cc.o.requires
+CMakeFiles/example.dir/requires: CMakeFiles/example.dir/src/SteppingAction.cc.o.requires
 
 .PHONY : CMakeFiles/example.dir/requires
 
@@ -260,6 +341,6 @@ CMakeFiles/example.dir/clean:
 .PHONY : CMakeFiles/example.dir/clean
 
 CMakeFiles/example.dir/depend:
-	cd /home/andriy/Programs/G4W/GW/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andriy/Programs/G4W/GW /home/andriy/Programs/G4W/GW /home/andriy/Programs/G4W/GW/build /home/andriy/Programs/G4W/GW/build /home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andriy/Programs/G4W/GW/GWP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andriy/Programs/G4W/GW/GWP /home/andriy/Programs/G4W/GW/GWP /home/andriy/Programs/G4W/GW/GWP/build /home/andriy/Programs/G4W/GW/GWP/build /home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example.dir/depend
 

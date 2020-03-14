@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW
+CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW/GWP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/build
+CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/GWP/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andriy/Programs/G4W/GW/build/CMakeFiles /home/andriy/Programs/G4W/GW/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles /home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andriy/Programs/G4W/GW/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -290,6 +290,33 @@ src/DetectorSD.cc.s:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/DetectorSD.cc.s
 .PHONY : src/DetectorSD.cc.s
 
+src/EventAction.o: src/EventAction.cc.o
+
+.PHONY : src/EventAction.o
+
+# target to build an object file
+src/EventAction.cc.o:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/EventAction.cc.o
+.PHONY : src/EventAction.cc.o
+
+src/EventAction.i: src/EventAction.cc.i
+
+.PHONY : src/EventAction.i
+
+# target to preprocess a source file
+src/EventAction.cc.i:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/EventAction.cc.i
+.PHONY : src/EventAction.cc.i
+
+src/EventAction.s: src/EventAction.cc.s
+
+.PHONY : src/EventAction.s
+
+# target to generate assembly for a file
+src/EventAction.cc.s:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/EventAction.cc.s
+.PHONY : src/EventAction.cc.s
+
 src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
 
 .PHONY : src/PrimaryGeneratorAction.o
@@ -317,6 +344,60 @@ src/PrimaryGeneratorAction.cc.s:
 	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.s
 .PHONY : src/PrimaryGeneratorAction.cc.s
 
+src/RunAction.o: src/RunAction.cc.o
+
+.PHONY : src/RunAction.o
+
+# target to build an object file
+src/RunAction.cc.o:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/RunAction.cc.o
+.PHONY : src/RunAction.cc.o
+
+src/RunAction.i: src/RunAction.cc.i
+
+.PHONY : src/RunAction.i
+
+# target to preprocess a source file
+src/RunAction.cc.i:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/RunAction.cc.i
+.PHONY : src/RunAction.cc.i
+
+src/RunAction.s: src/RunAction.cc.s
+
+.PHONY : src/RunAction.s
+
+# target to generate assembly for a file
+src/RunAction.cc.s:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/RunAction.cc.s
+.PHONY : src/RunAction.cc.s
+
+src/SteppingAction.o: src/SteppingAction.cc.o
+
+.PHONY : src/SteppingAction.o
+
+# target to build an object file
+src/SteppingAction.cc.o:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/SteppingAction.cc.o
+.PHONY : src/SteppingAction.cc.o
+
+src/SteppingAction.i: src/SteppingAction.cc.i
+
+.PHONY : src/SteppingAction.i
+
+# target to preprocess a source file
+src/SteppingAction.cc.i:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/SteppingAction.cc.i
+.PHONY : src/SteppingAction.cc.i
+
+src/SteppingAction.s: src/SteppingAction.cc.s
+
+.PHONY : src/SteppingAction.s
+
+# target to generate assembly for a file
+src/SteppingAction.cc.s:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/SteppingAction.cc.s
+.PHONY : src/SteppingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -343,9 +424,18 @@ help:
 	@echo "... src/DetectorSD.o"
 	@echo "... src/DetectorSD.i"
 	@echo "... src/DetectorSD.s"
+	@echo "... src/EventAction.o"
+	@echo "... src/EventAction.i"
+	@echo "... src/EventAction.s"
 	@echo "... src/PrimaryGeneratorAction.o"
 	@echo "... src/PrimaryGeneratorAction.i"
 	@echo "... src/PrimaryGeneratorAction.s"
+	@echo "... src/RunAction.o"
+	@echo "... src/RunAction.i"
+	@echo "... src/RunAction.s"
+	@echo "... src/SteppingAction.o"
+	@echo "... src/SteppingAction.i"
+	@echo "... src/SteppingAction.s"
 .PHONY : help
 
 

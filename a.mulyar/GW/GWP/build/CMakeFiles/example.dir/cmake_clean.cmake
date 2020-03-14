@@ -3,7 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/example.dir/src/ActionInitialization.cc.o"
   "CMakeFiles/example.dir/src/DetectorConstruction.cc.o"
   "CMakeFiles/example.dir/src/DetectorSD.cc.o"
+  "CMakeFiles/example.dir/src/EventAction.cc.o"
   "CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
+  "CMakeFiles/example.dir/src/RunAction.cc.o"
+  "CMakeFiles/example.dir/src/SteppingAction.cc.o"
   "example.pdb"
   "example"
 )

@@ -4,11 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andriy/Programs/G4W/GW/example.cc" "/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/example.cc.o"
-  "/home/andriy/Programs/G4W/GW/src/ActionInitialization.cc" "/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/src/ActionInitialization.cc.o"
-  "/home/andriy/Programs/G4W/GW/src/DetectorConstruction.cc" "/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/src/DetectorConstruction.cc.o"
-  "/home/andriy/Programs/G4W/GW/src/DetectorSD.cc" "/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/src/DetectorSD.cc.o"
-  "/home/andriy/Programs/G4W/GW/src/PrimaryGeneratorAction.cc" "/home/andriy/Programs/G4W/GW/build/CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/example.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/example.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/ActionInitialization.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/ActionInitialization.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/DetectorConstruction.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/DetectorConstruction.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/DetectorSD.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/DetectorSD.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/EventAction.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/EventAction.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/PrimaryGeneratorAction.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/PrimaryGeneratorAction.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/RunAction.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/RunAction.cc.o"
+  "/home/andriy/Programs/G4W/GW/GWP/src/SteppingAction.cc" "/home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/example.dir/src/SteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

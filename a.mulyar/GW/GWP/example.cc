@@ -9,8 +9,8 @@
 
 #include "G4UImanager.hh"
 
-#include "QBBC.hh"
 #include "FTFP_BERT.hh"
+#include "QGSP_BERT.hh"
 #include "QGSP_BERT_HP.hh"
 
 
@@ -23,6 +23,9 @@
 
 int main(int argc,char** argv)
 {
+  // Choose the Random engine
+  G4Random::setTheEngine(new CLHEP::RanecuEngine);
+  
   // Detect interactive mode (if no arguments) and define UI session
   //
   G4UIExecutive* ui = 0;
@@ -47,7 +50,7 @@ int main(int argc,char** argv)
   runManager->SetUserInitialization(new DetectorConstruction);
 
   // Physics list
-  runManager->SetUserInitialization(new FTFP_BERT);
+  runManager->SetUserInitialization(new QGSP_BERT_HP);
     
   // User action initialization
   runManager->SetUserInitialization(new ActionInitialization);

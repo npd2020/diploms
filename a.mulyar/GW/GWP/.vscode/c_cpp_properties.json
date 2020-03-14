@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "/home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4",
+                "/home/andriy/Programs/Geant4/**",
                 "/home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/include/**",
                 "${workspaceFolder}/include"
             ],

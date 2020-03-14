@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW
+CMAKE_SOURCE_DIR = /home/andriy/Programs/G4W/GW/GWP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/build
+CMAKE_BINARY_DIR = /home/andriy/Programs/G4W/GW/GWP/build
 
 # Utility rule file for GW.
 
@@ -71,6 +71,6 @@ CMakeFiles/GW.dir/clean:
 .PHONY : CMakeFiles/GW.dir/clean
 
 CMakeFiles/GW.dir/depend:
-	cd /home/andriy/Programs/G4W/GW/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andriy/Programs/G4W/GW /home/andriy/Programs/G4W/GW /home/andriy/Programs/G4W/GW/build /home/andriy/Programs/G4W/GW/build /home/andriy/Programs/G4W/GW/build/CMakeFiles/GW.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andriy/Programs/G4W/GW/GWP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andriy/Programs/G4W/GW/GWP /home/andriy/Programs/G4W/GW/GWP /home/andriy/Programs/G4W/GW/GWP/build /home/andriy/Programs/G4W/GW/GWP/build /home/andriy/Programs/G4W/GW/GWP/build/CMakeFiles/GW.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GW.dir/depend
 

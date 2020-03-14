@@ -44,6 +44,7 @@ target_link_libraries(example ${Geant4_LIBRARIES})
 #
 set(EXAMPLE_SCRIPTS
   graph.py
+  graphs.py
   init_vis.mac
   vis.mac
   run.mac

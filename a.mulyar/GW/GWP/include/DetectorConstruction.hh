@@ -23,6 +23,11 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     //Установка чувствительного объема. Когда частица в нем, то в нем извлекается
     //вся информация о треке и параметрах частицы на каждом шаге моделирования
     virtual void ConstructSDandField();
+    
+    G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
+
+  protected:
+    G4LogicalVolume*  fScoringVolume;
 };
 #endif
 
