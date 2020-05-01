@@ -1,0 +1,23 @@
+#pragma once
+
+/// \file EventAction.h
+/// \brief Definition of the EventAction class
+
+#include "G4UserEventAction.hh"
+#include "globals.hh"
+
+class RunAction;
+class EventAction : public G4UserEventAction {
+ public:
+  EventAction(RunAction* runAction);
+  virtual ~EventAction();
+
+  virtual void BeginOfEventAction(const G4Event* event);
+  virtual void EndOfEventAction(const G4Event* event);
+
+  void AddEdep(G4double edep) { fEdep += edep; }
+
+ private:
+  RunAction* fRunAction;
+  G4double fEdep;
+};
