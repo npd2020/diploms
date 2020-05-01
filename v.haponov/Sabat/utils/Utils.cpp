@@ -140,13 +140,26 @@ bool GeometryProp::valid() const {
     case GeometrySolid::Tube: {
       invalidSize = innerR == 0 || outerR == 0 || innerR == outerR ||
                     (PhiMax == 0 || PhiMin == PhiMax);
+      if (invalidSize) {
+        LogInfo::FLog<GeometryProp>(__func__, "invalid Tube",
+                                    LogInfo::LogFlags::Error);
+      }
+      break;
     }
     case GeometrySolid::Sphere: {
       invalidSize = (innerR == 0) || (outerR == 0) || (innerR == outerR) ||
                     (PhiMax == 0 || PhiMin == PhiMax) ||
                     (ThetaMax == 0 || ThetaMin == ThetaMax);
+      if (invalidSize) {
+        LogInfo::FLog<GeometryProp>(__func__, "invalid Sphere",
+                                    LogInfo::LogFlags::Error);
+      }
+      break;
     }
-    default: { invalidSize = (SizeX == 0) || (SizeY == 0) || (SizeZ == 0); }
+    default: {
+      invalidSize = (SizeX == 0) || (SizeY == 0) || (SizeZ == 0);
+      break;
+    }
   }
   bool invalidMaterial =
       Material.isNull() || (isCustomMaterial && !MaterialElement);

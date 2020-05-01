@@ -91,7 +91,7 @@ static void FLog(const char *const &_func, const char *const &_log,
 
 namespace utils {
 
-constexpr auto _participalAmmount = 1;
+constexpr auto _participalAmmount = 100000;
 constexpr int NOBINS = 262144;
 
 namespace material {

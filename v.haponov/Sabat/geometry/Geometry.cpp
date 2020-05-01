@@ -53,8 +53,8 @@ GeomProp Bottom::getProperties() const {
   return utils::geometry::getGeomProperty<Bottom>(this);
 }
 
-Detector::Detector(const G4ThreeVector& pos, const G4String& name,
-                   const G4String& material, const G4Colour& colour)
+DetectorSD::DetectorSD(const G4ThreeVector& pos, const G4String& name,
+                       const G4String& material, const G4Colour& colour)
     : GeomProp() {
   Material = material;
   Name = name;
@@ -65,8 +65,8 @@ Detector::Detector(const G4ThreeVector& pos, const G4String& name,
   SizeZ = dectorSize;
 }
 
-GeomProp Detector::getProperties() const {
-  return utils::geometry::getGeomProperty<Detector>(this);
+GeomProp DetectorSD::getProperties() const {
+  return utils::geometry::getGeomProperty<DetectorSD>(this);
 }
 
 Target::Target(const G4ThreeVector& pos, const G4String& material,

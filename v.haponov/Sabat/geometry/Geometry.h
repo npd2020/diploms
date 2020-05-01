@@ -4,7 +4,7 @@
 
 namespace geometry {
 
-constexpr G4double elementarySize = 5. * cm;
+constexpr G4double elementarySize = 1. * cm;
 
 using GeomProp = utils::geometry::GeometryProp;
 class PrimaryElementBox : public GeomProp {
@@ -48,12 +48,12 @@ class Bottom : public GeomProp {
 
 constexpr G4double dectorSize = 3. * cm;
 
-class Detector : public GeomProp {
+class DetectorSD : public GeomProp {
  public:
-  Detector(const G4ThreeVector& pos,
-           const G4String& name = utils::sabat::DetectorSDName,
-           const G4String& material = "G4_Ge",
-           const G4Colour& colour = utils::colours::brown);
+  DetectorSD(const G4ThreeVector& pos,
+             const G4String& name = utils::sabat::DetectorSDName,
+             const G4String& material = "G4_Ge",
+             const G4Colour& colour = utils::colours::red);
 
   GeomProp getProperties() const;
 

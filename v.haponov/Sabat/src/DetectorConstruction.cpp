@@ -2,6 +2,7 @@
 /// \brief Implementation of the DetectorConstruction class
 #include "DetectorConstruction.h"
 
+#include "Detector.h"
 #include "G4Box.hh"
 #include "G4LogicalVolume.hh"
 #include "G4NistManager.hh"
@@ -114,13 +115,16 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
   auto targetGeom = geomFabric->createGeometryElement(targetProp, logicBottom);
   auto logicTarget = targetGeom->construct(checkOverlaps);
 
-  // Detector
+  // DetectorSD
   G4ThreeVector detectorPos = G4ThreeVector(0, 0, utils::sabat::sourceZpos);
-  geometry::sabat::Detector detector(detectorPos);
+  geometry::sabat::DetectorSD detector(detectorPos);
   const auto detectorProp = detector.getProperties();
   auto detectorGeom = geomFabric->createGeometryElement(detectorProp, logicEnv);
   auto logicDetector = detectorGeom->construct(checkOverlaps);
 
+  geometry::sabat::CreateProtection detectorProtection(geomFabric,
+                                                       logicDetector);
+  auto detectProtectVolumes = detectorProtection.create();
   //
   // always return the physical World
   //
