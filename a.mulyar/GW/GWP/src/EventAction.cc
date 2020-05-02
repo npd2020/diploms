@@ -1,5 +1,6 @@
 #include "EventAction.hh"
 #include "RunAction.hh"
+#include "DetectorSD.hh"
 
 #include "G4Event.hh"
 #include "G4RunManager.hh"
@@ -20,17 +21,19 @@ EventAction::~EventAction()
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void EventAction::BeginOfEventAction(const G4Event*)
+void EventAction::BeginOfEventAction(const G4Event* event)
 {    
   fEdep = 0.;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void EventAction::EndOfEventAction(const G4Event*)
-{   
-  // accumulate statistics in run action
+void EventAction::EndOfEventAction(const G4Event* event)
+{
   
+  //if (event->GetEventID() % 10 == 0){}
+  
+  // accumulate statistics in run action
  /* auto analysisManager = G4AnalysisManager::Instance();
   analysisManager->FillH1(0, fEdep);
   analysisManager->FillNtupleDColumn(0, fEdep);

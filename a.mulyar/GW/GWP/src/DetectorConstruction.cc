@@ -68,16 +68,29 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                       checkOverlaps);        //overlaps checking
   ///////////////////////////////////////////////////////////////////////////////////////////////
   ///                      Земля або досліджуванна речовина(мішень)
-  G4Element*  C = nist->FindOrBuildElement("C" , false);
-  G4Element*  H  = nist->FindOrBuildElement("H" , false);
-  G4Element*  Cl  = nist->FindOrBuildElement("Cl" , false);
-  G4Element*  S  = nist->FindOrBuildElement("S" , false);
-
-  G4Material* C4H8Cl2S = new G4Material("C4H8Cl2S", 1.27*g/cm3, 4);
+  G4Element* C = nist->FindOrBuildElement("C" , false);
+  G4Element* H = nist->FindOrBuildElement("H" , false);
+  G4Element* Cl = nist->FindOrBuildElement("Cl" , false);
+  G4Element* S = nist->FindOrBuildElement("S" , false);
+  G4Element* O = nist->FindOrBuildElement("O" , false);
+  
+  /*
+  //сірчистий гас
+  G4Material* C4H8Cl2S = new G4Material("C4H8Cl2S", 1.27*g/cm3, 4);  
   C4H8Cl2S->AddElement(C, 4);
   C4H8Cl2S->AddElement(H, 8);
   C4H8Cl2S->AddElement(Cl, 2);
   C4H8Cl2S->AddElement(S, 1);
+  //
+  */
+
+  //Фосген
+  G4Material* C4H8Cl2S = new G4Material("C4H8Cl2S", 1.4203*g/cm3, 3);  
+  C4H8Cl2S->AddElement(C, 1);
+  C4H8Cl2S->AddElement(O, 1);
+  C4H8Cl2S->AddElement(Cl, 2);
+  //
+
   //G4Material* C4H8Cl2S = nist->FindOrBuildMaterial("G4_Ag");
   G4ThreeVector pos1 = G4ThreeVector(0, -0.5*env_sizeY, 0*cm);
 
@@ -90,7 +103,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                         C4H8Cl2S,             //its material
                         "Ground");            //its name
                     
-  G4VPhysicalVolume* GroundPV =
+  /*G4VPhysicalVolume* GroundPV =
     new G4PVPlacement(0,                      //no rotation
                     pos1,                     //at 
                     GroundL,                  //its logical volume
@@ -102,16 +115,16 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   
   G4VisAttributes * GroundAtt = new G4VisAttributes(G4Colour(1.,1.,0.)); // yellow
   GroundAtt->SetForceWireframe(true);
-  GroundL->SetVisAttributes(GroundAtt);
+  GroundL->SetVisAttributes(GroundAtt);*/
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////////////////////
-  // Алюмінієва преграда
-  G4double n = 2*cm;
-  G4double TpRMin = 40*cm, TpRMax = 42*cm, TpDz = 30*cm, TpSPhi = 0*deg, TpDPhi = 360.*deg;
+  // Алюмінієва преграда(блок)
+  G4double n = 4*cm;
+  G4double TpRMin = 40*cm, TpRMax = 44*cm, TpDz = 30*cm, TpSPhi = 0*deg, TpDPhi = 360.*deg;
   G4Material* rep_matSS = nist->FindOrBuildMaterial("G4_Al"); 
-  G4ThreeVector pos4 = G4ThreeVector(0*cm, 70*cm, 0*cm); 
+  G4ThreeVector pos4 = G4ThreeVector(0*cm, 100*cm, 0*cm); 
 
-  G4Box* RepSb = new G4Box("Repperb", TpRMax + 3*cm + 2*n, TpDz+TpRMax/2 + 3*cm + 2*n, TpRMax + 3*cm + 2*n);
+  G4Box* RepSb = new G4Box("Repperb", TpRMax + 6*cm + 2*n, TpDz+TpRMax/2 + 6*cm + 2*n, TpRMax + 6*cm + 2*n);
   G4Box* RepSm = new G4Box("Reppers", TpRMax + 2*cm + 2*n, TpDz+TpRMax/2 + 2*cm + 2*n, TpRMax + 2*cm + 2*n);
   
   G4SubtractionSolid* sub = new G4SubtractionSolid("RepSb-RepSm", RepSb, RepSm);
@@ -154,6 +167,27 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4VisAttributes * RepAtt = new G4VisAttributes(G4Colour(0.2,0.9,0.1)); // white
   RepAtt->SetForceWireframe(true);
   RepL->SetVisAttributes(RepAtt);
+  //////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////////////////////////
+  /*// Джерело 
+  G4Box *d = new G4Box("Dj", 1*cm, 1*cm, 1*cm);
+  G4LogicalVolume* RepLl =                         
+    new G4LogicalVolume(d,                //its solid
+                        rep_mat,             //its material
+                        "1");              //its name
+                    
+  G4VPhysicalVolume* RepPVl =
+    new G4PVPlacement(0,                       //no rotation
+                    G4ThreeVector(0*cm,-40*cm,0*cm),                      //at 
+                    RepLl,                 //its logical volume
+                    "1",                //its name
+                    WorldL,                   //its mother  volume     (чому не прцює з логічний обєктом WrapperL)
+                    false,                     //no boolean operation
+                    0,                         //copy number
+                    checkOverlaps);            //overlaps checking
+  G4VisAttributes * RepAttl = new G4VisAttributes(G4Colour(0.2,0.9,0.1)); // white
+  RepAttl->SetForceWireframe(false);
+  RepLl->SetVisAttributes(RepAttl);*/
   //////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////// 
   ////  Свинцевий захист
@@ -227,7 +261,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4RotationMatrix* rot2  = new G4RotationMatrix();
   rot2->rotateX(M_PI/2.*rad);
 
-  G4VPhysicalVolume* WrapperPV2 =
+  /*G4VPhysicalVolume* WrapperPV2 =
     new G4PVPlacement(rot2,                      //no rotation
                     pos2,                     //at 
                     WrapperL2,                  //its logical volume
@@ -239,7 +273,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   
   G4VisAttributes * WrapAtt2 = new G4VisAttributes(G4Colour(1.,0.5,0.)); 
   WrapAtt2->SetForceWireframe(false);
-  WrapperL2->SetVisAttributes(WrapAtt2);
+  WrapperL2->SetVisAttributes(WrapAtt2);*/
   ////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////// 
   ////  Парафин захист
@@ -274,7 +308,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4RotationMatrix* rot3  = new G4RotationMatrix();
   rot3->rotateX(M_PI/2.*rad);
 
-  G4VPhysicalVolume* WrapperPV3 =
+  /*G4VPhysicalVolume* WrapperPV3 =
     new G4PVPlacement(rot3,                      //no rotation
                     pos2,                     //at 
                     WrapperL3,                  //its logical volume
@@ -286,7 +320,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   
   G4VisAttributes * WrapAtt3 = new G4VisAttributes(G4Colour(0.4,0.,0.6)); 
   WrapAtt3->SetForceWireframe(false);
-  WrapperL3->SetVisAttributes(WrapAtt3);
+  WrapperL3->SetVisAttributes(WrapAtt3);*/
   ////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////                 
   // Детектор

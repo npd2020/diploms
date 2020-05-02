@@ -970,6 +970,7 @@ CMakeFiles/example.dir/src/DetectorSD.cc.o: /home/andriy/Programs/Geant4/geant4.
 CMakeFiles/example.dir/src/DetectorSD.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/tls.hh
 CMakeFiles/example.dir/src/DetectorSD.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/trkdefs.hh
 
+CMakeFiles/example.dir/src/EventAction.cc.o: ../include/DetectorSD.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: ../include/EventAction.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: ../include/RunAction.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/CLHEP/CLHEP-2.4.1.2-install/lib/CLHEP-2.4.1.2/../../include/CLHEP/Geometry/BasicVector3D.h
@@ -1082,6 +1083,7 @@ CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4BlockingList.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4BlockingList.icc
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4ClassificationOfNewTrack.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4CollectionNameVector.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4DCofThisEvent.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4DataVector.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4DataVector.icc
@@ -1186,6 +1188,7 @@ CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4RunManager.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4RunManagerKernel.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4SandiaTable.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4SensitiveVolumeList.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4SmartTrackStack.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4SmartVoxelHeader.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4SmartVoxelHeader.icc
@@ -1256,6 +1259,7 @@ CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VH1Manager.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VH2Manager.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VH3Manager.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VHit.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VHitsCollection.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VNtupleManager.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VP1Manager.hh
@@ -1267,6 +1271,9 @@ CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VPhysicalVolume.icc
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VProcess.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VRNtupleManager.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VReadOutGeometry.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VSDFilter.hh
+CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VSensitiveDetector.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VSolid.hh
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VSolid.icc
 CMakeFiles/example.dir/src/EventAction.cc.o: /home/andriy/Programs/Geant4/geant4.10.06-install/include/Geant4/G4VSteppingVerbose.hh

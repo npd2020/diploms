@@ -777,6 +777,8 @@ EventAction.hh
 /home/andriy/Programs/G4W/GW/GWP/src/EventAction.hh
 RunAction.hh
 /home/andriy/Programs/G4W/GW/GWP/src/RunAction.hh
+DetectorSD.hh
+/home/andriy/Programs/G4W/GW/GWP/src/DetectorSD.hh
 G4Event.hh
 /home/andriy/Programs/G4W/GW/GWP/src/G4Event.hh
 G4RunManager.hh
