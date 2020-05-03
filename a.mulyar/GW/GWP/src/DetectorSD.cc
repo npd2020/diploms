@@ -14,7 +14,7 @@ DetectorSD::DetectorSD(G4String name): G4VSensitiveDetector(name), HIST_MAX(10*M
     histogram[i] = 0;
   }
 }
-//Вызывается на каждом шаге моделирования частицы, когда она попадает в этот чувствительный объем
+//Вызывается на каждом шаге моделрования частицы, когда она попадает в этот чувствительный объем
 G4bool DetectorSD::ProcessHits(G4Step* step, G4TouchableHistory* history)
 {
   // Получаем кинетическую энергии частицы с предыдущего шага, т.е. начальную
@@ -29,8 +29,8 @@ G4bool DetectorSD::ProcessHits(G4Step* step, G4TouchableHistory* history)
   G4ThreeVector ang = step->GetPreStepPoint()->GetMomentumDirection();
   // Применяем фунцию класса G4ThreeVector - находим угол относительно вектора centerVector
   double angle=ang.angle(*centerVector);
-  // Если имя частицы протон (gamma), тогда заполняем гистограммы
-  if(step->GetTrack()->GetDefinition()->GetParticleName() == "gamma" && angle < 1.58){
+  // Если имя частицы протон (gamma), тогда заполняем гистограммы    ////&& angle < 1.58
+  if(step->GetTrack()->GetDefinition()->GetParticleName() == "gamma"){
     // Определяем индекс (номер) бина гистограммы энергии
     int index = int(floor((energy-HIST_MIN)/bin_width));
     // Добавляем +1 в соответствующий бин
@@ -47,7 +47,7 @@ DetectorSD::~DetectorSD()
 {
   // В деструкторе выводим гистограммы в файлы
   // Открываем файл (существующий файл полностью перезаписывается)
-  std::ofstream file("res.txt");
+  std::ofstream file("fon.txt");
   file << "Energy" << " " << "N" << '\n';
   // Вычисляем ширину бина
   double bin_width = (HIST_MAX - HIST_MIN) / NOBINS;
@@ -59,6 +59,6 @@ DetectorSD::~DetectorSD()
     // Выводим в файл
     file << energy/MeV << " " << histogram[i] << std::endl;
   }
-  // Закрываем файл
+  // Закрываем фай
   file.close();
 }

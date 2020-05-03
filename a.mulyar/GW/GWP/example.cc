@@ -24,7 +24,12 @@
 int main(int argc,char** argv)
 {
   // Choose the Random engine
-  G4Random::setTheEngine(new CLHEP::RanecuEngine);
+  G4Random::setTheEngine(new CLHEP::RanecuEngine());
+  G4Random::setTheSeed(time(NULL));
+
+  // CLHEP::HepRandom::setTheEngine(new CLHEP::RanecuEngine);
+  // CLHEP::HepRandom::setTheSeed(time(NULL));
+  
   
   // Detect interactive mode (if no arguments) and define UI session
   //
