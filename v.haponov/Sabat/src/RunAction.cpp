@@ -41,9 +41,9 @@ RunAction::~RunAction() {}
 void RunAction::BeginOfRunAction(
     const G4Run*) {  // inform the runManager to save random number seed
   G4RunManager::GetRunManager()->SetRandomNumberStore(false);
-
   // reset accumulables to their initial values
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
+
   accumulableManager->Reset();
 }
 

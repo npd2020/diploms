@@ -11,46 +11,54 @@
 
 #include <QDebug>
 
-SensitiveDetector::SensitiveDetector(G4String name)
-    : G4VSensitiveDetector(name)
-    , HIST_MAX(10 * MeV)
-    , HIST_MIN(0 * MeV) {
-    LogInfo::FLog<SensitiveDetector>(__func__, "create");
-    std::fill(histogram->begin(), histogram->end(), 0);
-    std::fill(histogram_angle->begin(), histogram_angle->end(), 0);
+SensitiveDetector::SensitiveDetector(vectorPtr histogramPtr,
+                                     std::shared_ptr<utils::counter> counter,
+                                     G4String name)
+    : G4VSensitiveDetector(name), HIST_MAX(10 * MeV), HIST_MIN(0 * MeV) {
+  this->histogram = histogramPtr;
+  LogInfo::FLog<SensitiveDetector>(__func__, "create");
+  std::fill(histogram_angle->begin(), histogram_angle->end(), 0);
+  m_counter = counter;
 }
 
-G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory* history) {
-    m_counter--;
-    double energy = step->GetPreStepPoint()->GetKineticEnergy();
-    double bin_width = (HIST_MAX - HIST_MIN) / utils::NOBINS;
-    // Participal filter
-    //  if (step->GetTrack()->GetDefinition()->GetParticleName() != "gamma") {
-    //    return true;
-    //  }
-    int index = int(floor((energy - HIST_MIN) / bin_width));
-    if (index >= 0 && index < utils::NOBINS) {
-        histogram->at(index)++;
-    };
-    G4ThreeVector ang = step->GetPreStepPoint()->GetMomentumDirection();
-    G4ThreeVector* centerVector = new G4ThreeVector(0, 0, 1);
-    double angle = ang.angle(*centerVector);
-    double bin_width_ang = (3.14) / utils::NOBINS;
-    index = int(floor((angle) / bin_width_ang));
-    if (index >= 0 && index < utils::NOBINS) {
-        histogram_angle->at(index)++;
-    }
-    // Kill pariciple after target
-    //  step->GetTrack()->SetTrackStatus(fStopAndKill);
-    if (m_counter == 0) {
-        utils::Utils::saveData(histogram, HIST_MIN, HIST_MAX);
-        m_counter = utils::_participalAmmount;
-    }
+G4bool SensitiveDetector::ProcessHits(G4Step* step,
+                                      G4TouchableHistory* history) {
+  //  sabatMutex.lock();
+  double energy = step->GetPreStepPoint()->GetKineticEnergy();
+  double bin_width = (HIST_MAX - HIST_MIN) / utils::NOBINS;
+  // Participal filter
+  if (step->GetTrack()->GetDefinition()->GetParticleName() != "gamma") {
+    //    sabatMutex.unlock();
+    m_counter->at()--;
     return true;
+  }
+  int index = int(floor((energy - HIST_MIN) / bin_width));
+  if (index >= 0 && index < utils::NOBINS) {
+    histogram->at(index)++;
+  };
+  G4ThreeVector ang = step->GetPreStepPoint()->GetMomentumDirection();
+  G4ThreeVector* centerVector = new G4ThreeVector(0, 0, 1);
+  double angle = ang.angle(*centerVector);
+  double bin_width_ang = (3.14) / utils::NOBINS;
+  index = int(floor((angle) / bin_width_ang));
+  if (index >= 0 && index < utils::NOBINS) {
+    histogram_angle->at(index)++;
+  }
+  // Kill pariciple after target
+  //  step->GetTrack()->SetTrackStatus(fStopAndKill);
+  if (m_counter->at() <= 0) {
+    std::thread savingThread(utils::Utils::saveData, histogram, HIST_MIN,
+                             HIST_MAX);
+    savingThread.join();
+    m_counter->update(utils::_participalAmmount);
+  }
+  //  sabatMutex.unlock();
+  m_counter->at()--;
+  return true;
 }
 
 SensitiveDetector::~SensitiveDetector() {
-    utils::Utils::saveData(histogram, HIST_MIN, HIST_MAX);
-    utils::Utils::squashData();
-    LogInfo::FLog<SensitiveDetector>(__func__, "delete");
+  utils::Utils::saveData(histogram, HIST_MIN, HIST_MAX);
+  utils::Utils::squashData();
+  LogInfo::FLog<SensitiveDetector>(__func__, "delete");
 }

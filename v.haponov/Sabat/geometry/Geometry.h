@@ -60,7 +60,7 @@ class DetectorSD : public GeomProp {
  private:
 };
 
-constexpr G4double targetSize = 1. * m;
+constexpr G4double targetSize = 20. * cm;
 
 class Target : public GeomProp {
  public:

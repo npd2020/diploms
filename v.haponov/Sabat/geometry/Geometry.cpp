@@ -77,7 +77,7 @@ Target::Target(const G4ThreeVector& pos, const G4String& material,
   Position = pos;
   Colour = colour;
   SizeX = targetSize;
-  SizeY = targetSize / 4;
+  SizeY = targetSize / 2;
   SizeZ = targetSize / 2;
   isCustomMaterial = true;
 }

@@ -2,9 +2,15 @@
 
 #include <QMutex>
 #include <memory>
+#include <thread>
 
 #include <G4VSensitiveDetector.hh>
 #include "Utils.h"
+
+//#ifndef MUTEX_SABAT
+//#define MUTEX_SABAT
+// extern G4Mutex sabatMutex;
+//#endif
 
 class FileManager;
 class G4Step;
@@ -14,16 +20,18 @@ using vectorPtr = std::shared_ptr<std::vector<int>>;
 using streamPtr = std::unique_ptr<std::ofstream>;
 
 class SensitiveDetector : public G4VSensitiveDetector {
-private:
-    const double HIST_MAX;
-    const double HIST_MIN;
-    int m_counter = utils::_participalAmmount;
-    vectorPtr histogram = vectorPtr(new std::vector<int>(utils::NOBINS));
-    vectorPtr histogram_angle = vectorPtr(new std::vector<int>(utils::NOBINS));
+ private:
+  const double HIST_MAX;
+  const double HIST_MIN;
+  vectorPtr histogram;
+  vectorPtr histogram_angle = vectorPtr(new std::vector<int>(utils::NOBINS));
+  std::shared_ptr<utils::counter> m_counter;
 
-public:
-    SensitiveDetector(G4String name);
-    ~SensitiveDetector();
+ public:
+  SensitiveDetector(vectorPtr histogramPtr,
+                    std::shared_ptr<utils::counter> counter,
+                    G4String name = utils::sabat::DetectorSDName);
+  ~SensitiveDetector();
 
-    G4bool ProcessHits(G4Step* step, G4TouchableHistory* history);
+  G4bool ProcessHits(G4Step* step, G4TouchableHistory* history);
 };
