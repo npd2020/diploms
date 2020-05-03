@@ -21,11 +21,16 @@ class DetectorConstruction : public G4VUserDetectorConstruction {
 
   virtual G4VPhysicalVolume* Construct() override;
   G4LogicalVolume* GetScoringVolume() const;
+  G4LogicalVolume* GetSensetiveVolume() const;
   virtual void ConstructSDandField() override;
 
   void setTrackerDetector(const std::unique_ptr<SensitiveDetector>& value);
 
  protected:
-  SensitiveDetector* trackerDetector;
   G4LogicalVolume* fScoringVolume;
+  G4LogicalVolume* fSensetiveVoulume;
+  SensitiveDetector* trackerDetector;
+  std::shared_ptr<utils::counter> m_counter = std::shared_ptr<utils::counter>(
+      new utils::counter(utils::_participalAmmount));
+  vectorPtr m_histogram = vectorPtr(new std::vector<int>(utils::NOBINS));
 };

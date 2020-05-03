@@ -168,4 +168,27 @@ bool GeometryProp::valid() const {
 }
 }  // namespace geometry
 
+counter::counter(const int amount) { m_amount = amount; }
+
+const counter &counter::operator=(const counter &value) {
+  m_amount = value.m_amount;
+  return *this;
+}
+
+bool counter::operator==(const int amount) const { return m_amount == amount; }
+
+int &counter::operator--() {
+  m_amount--;
+  return m_amount;
+}
+
+int &counter::at() { return m_amount; }
+
+int &counter::update(const int value) {
+  m_amount = value;
+  return m_amount;
+}
+
+// namespace geometry
+
 }  // namespace utils

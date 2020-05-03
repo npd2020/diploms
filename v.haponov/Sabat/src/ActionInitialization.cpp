@@ -5,6 +5,7 @@
 #include "EventAction.h"
 #include "PrimaryGeneratorAction.h"
 #include "RunAction.h"
+#include "SensitiveDetector.h"
 #include "SteppingAction.h"
 #include "SteppingVerbose.h"
 

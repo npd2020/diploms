@@ -13,7 +13,7 @@ constexpr G4double sphereThetaMin = 0;
 constexpr G4double sphereThetaMax = 90. * deg;
 
 constexpr G4double tubeDeepth = 1 * cm;
-constexpr G4double tubeSizeZ = 5. * cm;
+constexpr G4double tubeSizeZ = 3. * cm;
 class ProtectionTube : public GeomProp {
  public:
   ProtectionTube(const G4double innerR, const G4double outerR,
