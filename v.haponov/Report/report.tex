@@ -64,6 +64,11 @@
 \section{Глава 1 \\}
 \setcounter{figure}{0} 
 
+\subsection{$QGSP\_BERT\_HP$}
+	$QGSP\_BERT\_HP$ - ця фізична модель входить в перелік стандартних фізичних моделей розрахункового пакету Geant4
+	Базується на каскадній моделі Бертіні та враховує реакції для нейтронів менше ніж 20 МеВ. Для валідації данної моделі необхідне виконання наступних умов $\frac{\lambda_B}{\nu} \ll \tau_c \ll \Delta{t}$, $\lambda_B$ - хвиля де-Бролля для налітаючої частинки, $\nu$ - швидкість налітаючої частинки, $\Delta{t}$ - час між зіткненнями. Та модель яка лягла в основу коду Geant4 була протестована на частинках з енергіями від 100 МеВ до 3 ГеВ
+	
+
 \section{Глава 2 \\}
 \setcounter{figure}{0}
 
@@ -97,9 +102,13 @@
 \addcontentsline{toc}{section}{Література}
 \newpage
 \begin{thebibliography}{}
+	
 %	\comment{кометар: це джерело звідки були взяті розміри детектора}  
 	\bibitem{1} \textit{R.M. Keyser and T.R. Twomey} - Extended Source Sensitivity and Resolution Comparisons of Several HPGe Detector Types with Low-energy Capabilities \\
 	\href{https://www.ortec-online.com/-/media/ametekortec/technical%20papers/high%20purity%20germanium%20detector%20applications%20and%20technology%20developements/extended-source-sensitivity-resolution-comparisons-several-hpge-detector-types-low-energy-capabilities.pdf?la=en}{ HPGe Detector Types}
+		
+	\bibitem{1} \textit{Aatos Heikkinen, Nikita Stepanov Helsinki Institute of Physics, P.O. Box 64, FIN-00014 University of Helsinki, Finland Johannes Peter Wellisch CERN, Geneva, Switzerland} - Bertini intra-nuclear cascade implementation in Geant4
+	\href{https://www.slac.stanford.edu/econf/C0303241/proc/papers/MOMT008.PDF}{link}
 	
 \end{thebibliography}
 
