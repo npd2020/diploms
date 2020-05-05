@@ -1,6 +1,9 @@
 \babel@toc {ukrainian}{}
 \babel@toc {ukrainian}{}
 \contentsline {section}{\numberline {1}\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1 \\}{2}{section.1}
-\contentsline {section}{\numberline {2}\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2 \\}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}\IeC {\CYRO }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs } \IeC {\cyrd }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{2}{subsection.2.1}
-\contentsline {section}{\IeC {\CYRL }\IeC {\cyrii }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{3}{figure.caption.3}
+\contentsline {subsection}{\numberline {1.1}$QGSP\_BERT$}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2 \\}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\CYRO }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs } \IeC {\cyrd }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{3}{subsection.2.1}
+\contentsline {section}{\numberline {3}\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}\IeC {\CYRO }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrii }}{5}{subsection.3.1}
+\contentsline {section}{\IeC {\CYRL }\IeC {\cyrii }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{5}{figure.caption.4}
