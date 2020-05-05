@@ -11,8 +11,10 @@
 #include "G4SDManager.hh"
 #include "G4SystemOfUnits.hh"
 
+#include "G4VisAttributes.hh"
 #include "Geometry.h"
 #include "GeometryFabric.h"
+
 DetectorConstruction::DetectorConstruction()
     : G4VUserDetectorConstruction(), fScoringVolume(0) {
   G4String trackerChamberSDname = "DetectorSD";
@@ -104,25 +106,12 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
   // Target
   G4double targetDeeps = 0. * cm;
   //  G4Material* targetMaterial =
-  //      utils::Utils::MustardGas(nist);  // custom material Mustard gas
+  //      utils::Utils::MustardGas(nist);  // custom material
 
-  utils::material::Au_Mineral_petzite targetMaterialDef;
+  utils::material::Au_mineral materialProp = utils::material::Au_mineral();
 
   G4Material* targetMaterial =
-      utils::Utils::materialCreator(nist, targetMaterialDef);
-  G4Material* bottomM1 = nist->FindOrBuildMaterial("G4_Si");
-  G4Material* bottomM2 = nist->FindOrBuildMaterial("G4_Fe");
-  G4Material* bottomM3 = nist->FindOrBuildMaterial("G4_C");
-  G4Material* bottomM4 = nist->FindOrBuildMaterial("G4_Ca");
-
-  G4Material* resTargM = new G4Material("Custom", 3.22 * g / m3, 5);
-
-  resTargM->AddMaterial(targetMaterial, 0.4 * perCent);
-
-  resTargM->AddMaterial(bottomM1, 60.4 * perCent);
-  resTargM->AddMaterial(bottomM2, 4.6 * perCent);
-  resTargM->AddMaterial(bottomM3, 9.6 * perCent);
-  resTargM->AddMaterial(bottomM4, 25.0 * perCent);
+      utils::Utils::materialCreator(nist, materialProp);  // custom material
 
   //  G4ThreeVector targetPos =
   //      G4ThreeVector(0, 0,
@@ -132,38 +121,56 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
   G4ThreeVector targetPos =
       G4ThreeVector(0, 0, -geometry::sabat::targetSize / 2 - targetDeeps);
 
-  //  geometry::sabat::Target target(
-  //      targetPos, targetMaterial->GetName());  // Mother volume bottomVolume
-  //  target.setMaterial(targetMaterial);
-
   geometry::sabat::Target target(
-      targetPos, resTargM->GetName());  // Mother volume bottomVolume
-  target.setMaterial(resTargM);
-
+      targetPos, targetMaterial->GetName());  // Mother volume bottomVolume
+  target.setMaterial(targetMaterial);
   const auto targetProp = target.getProperties();
   //  auto targetGeom = geomFabric->createGeometryElement(targetProp,
   //  logicBottom);
   auto targetGeom = geomFabric->createGeometryElement(targetProp, logicEnv);
-  auto logicTarget = targetGeom->construct(checkOverlaps);
+  //  auto logicTarget = targetGeom->construct(checkOverlaps);
 
   // DetectorSD
-  G4ThreeVector detectorPos = G4ThreeVector(0, 0, utils::sabat::sourceZpos);
+  G4ThreeVector detectorPos =
+      G4ThreeVector(0, 0, utils::sabat::sourceZpos + 10. * cm);
   geometry::sabat::DetectorSD detector(detectorPos);
   const auto detectorProp = detector.getProperties();
   auto detectorGeom = geomFabric->createGeometryElement(detectorProp, logicEnv);
   auto logicDetector = detectorGeom->construct(checkOverlaps);
 
-  /*
- geometry::sabat::CreateProtection detectorProtection(geomFabric,
-                                                      logicDetector);
- auto detectProtectVolumes = detectorProtection.create();
-   */
+  G4Box* solid = new G4Box("3333",                      // its name
+                           1. * cm, 1. * cm, 1. * cm);  // its size
+
+  G4LogicalVolume* logicSolid = new G4LogicalVolume(solid,    // its solid
+                                                    env_mat,  // its material
+                                                    "3333");  //  its name
+  logicSolid->SetVisAttributes(new G4VisAttributes(utils::colours::red));
+  new G4PVPlacement(0,                                    // no rotation
+                    utils::Utils::countSourcePosition(),  // at (0,0,0)
+                    logicSolid,                           // its logical volume
+                    "3333",                               // its name
+                    logicEnv,                             // its mother  volume
+                    false,  // no boolean operation
+                    0,      // copy number
+                    checkOverlaps);
+
+  //  /*
+  geometry::sabat::CreateProtection detectorProtection(geomFabric,
+                                                       logicDetector);
+  auto detectProtectVolumes = detectorProtection.create();
+  //   */
+
+  auto rotationPSource = new G4RotationMatrix;
+  rotationPSource->rotateY(geometry::sabat::rotationTube);
+  geometry::sabat::CreateProtection sourceProtection(
+      geomFabric, logicEnv, rotationPSource,
+      utils::Utils::countSourcePosition());
+  auto sourceProtectionVolumes = sourceProtection.create(true);
 
   //
   // always return the physical World
   //
-  fScoringVolume = logicTarget;
-  fSensetiveVoulume = logicDetector;
+  fScoringVolume = logicDetector;
   return physWorld;
 }
 

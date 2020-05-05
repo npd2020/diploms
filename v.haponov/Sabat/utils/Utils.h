@@ -92,7 +92,7 @@ static void FLog(const char *const &_func, const char *const &_log,
 namespace utils {
 
 constexpr auto _participalAmmount = 100000;
-constexpr int NOBINS = 262144 / 2;
+constexpr int NOBINS = 1024 * 16;  // * 256 / 2;
 
 namespace material {
 
@@ -103,25 +103,14 @@ struct MaterialProperty {
   G4double m_density;
 };
 
-struct Au_Mineral_petzite : public MaterialProperty {
-  Au_Mineral_petzite() {
-    m_chemicalFormula = "Аg3АuТе2";
-    m_name = "Au_Mineral";
+struct Au_mineral : public MaterialProperty {
+  Au_mineral() {
+    m_chemicalFormula = "Аg3AuS2";
+    m_name = "AuMineral";
+    m_elList["Ag"] = 3;
+    m_elList["Au"] = 1;
+    m_elList["S"] = 2;
     m_density = 9.22 * g / cm3;
-    m_elList.insert("Ag", 3);
-    m_elList.insert("Au", 1);
-    m_elList.insert("Te", 2);
-  }
-};
-
-struct Au_petzite : public MaterialProperty {
-  Au_petzite() {
-    m_chemicalFormula = "Аg3АuТе2";
-    m_name = "Au_Mineral";
-    m_density = 3.22 * g / cm3;
-    m_elList.insert("Ag", 3);
-    m_elList.insert("Au", 1);
-    m_elList.insert("Te", 2);
   }
 };
 
@@ -134,7 +123,7 @@ static const G4String DetectorName = "SabatDetector";
 static const G4String DetectorSDName = "SabatDetectorSD";
 static const G4String EnviromentName = "Envelope";
 
-constexpr G4double sourceZpos = 10. * cm;
+constexpr G4double sourceZpos = 20. * cm;
 constexpr G4double sourceXPos = 30. * cm;
 constexpr G4double sourceYPos = 0;
 

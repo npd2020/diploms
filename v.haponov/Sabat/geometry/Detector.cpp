@@ -50,46 +50,88 @@ GeomProp ProtectionSphere::getGeometryProperty() const {
 
 CreateProtection::CreateProtection(const GeomFabricPtr &fabric,
                                    G4LogicalVolume *parent,
+                                   G4RotationMatrix *rotMatrix,
                                    const G4ThreeVector &pos) {
   m_parent = parent;
   m_position = pos;
   m_fabric = fabric;
+  m_rotMatrix = rotMatrix;
 }
 
-QVector<G4LogicalVolume *> CreateProtection::create() const {
+QVector<G4LogicalVolume *> CreateProtection::create(
+    const bool isSourceP) const {
   QVector<G4LogicalVolume *> result;
-  G4double lastOuter = geometry::sabat::dectorSize + 1. * cm;
+  // env tube
+  G4ThreeVector tubsPos =
+      G4ThreeVector(m_position.x(), m_position.y(), m_position.z() - tubeSizeZ);
+  if (isSourceP) {
+    tubsPos = m_position;
+  }
+  ProtectionTube tube(0, geometry::sabat::detectorSizeR + 1. * cm,
+                      tubeSizeZ - 1 * cm, "EnvTube", "G4_AIR", tubsPos,
+                      utils::colours::cyan);
+  const auto tubeProp = tube.getGeometryProperty();
+  auto tubeGeom = m_fabric->createGeometryElement(tubeProp, m_parent);
+  tubeGeom->setRotation(m_rotMatrix);
+  result << tubeGeom->construct(checkOverlaps);
+
+  G4double lastOuter = geometry::sabat::detectorSizeR + 1. * cm;
+
+  if (isSourceP) {
+    auto tubeP = createTube(0, lastOuter, isSourceP);
+    result << tubeP;
+    return result;
+  }
+
+  ProtectionSphere sphere(0, geometry::sabat::detectorSizeR + 1. * cm,
+                          "EnvSphere", "G4_AIR", m_position,
+                          utils::colours::cyan);
+
+  const auto SphereProp = sphere.getGeometryProperty();
+  auto sphereGeom = m_fabric->createGeometryElement(SphereProp, m_parent);
+  sphereGeom->setRotation(m_rotMatrix);
+  result << sphereGeom->construct(checkOverlaps);
+
   for (auto it = m_names.constBegin(); it != m_names.constEnd(); ++it) {
     const auto index = it - m_names.begin();
-    auto tube = createTube(index, lastOuter);
-    auto sphere = createSphere(index, lastOuter);
-    result << tube << sphere;
+    auto tubeP = createTube(index, lastOuter);
+    auto sphereP = createSphere(index, lastOuter);
+    result << tubeP << sphereP;
   }
+
   return result;
 }
 
 G4LogicalVolume *CreateProtection::createTube(const int index,
-                                              G4double &lastOuter) const {
+                                              G4double &lastOuter,
+                                              const bool isSourceP) const {
   const auto innerR = lastOuter;
-  const auto outerR = lastOuter + (index + 1) * tubeDeepth;
+  const auto outerR = innerR + m_sizes.at(index);
+
   G4ThreeVector tubsPos =
       G4ThreeVector(m_position.x(), m_position.y(), m_position.z() - tubeSizeZ);
+  if (isSourceP) {
+    tubsPos = m_position;
+  }
   ProtectionTube tube(innerR, outerR, tubeSizeZ, m_names.at(index) + "Tube",
                       m_materials.at(index), tubsPos, m_colours.at(index));
   const auto tubeProp = tube.getGeometryProperty();
   auto tubeGeom = m_fabric->createGeometryElement(tubeProp, m_parent);
+  tubeGeom->setRotation(m_rotMatrix);
   return tubeGeom->construct(checkOverlaps);
 }
 
 G4LogicalVolume *CreateProtection::createSphere(const int index,
                                                 G4double &lastOuter) const {
   const auto innerR = lastOuter;
-  const auto outerR = lastOuter + (index + 1) * tubeDeepth;
+  const auto outerR = innerR + m_sizes.at(index);
+
   ProtectionSphere sphere(innerR, outerR, m_names.at(index) + "Sphere",
                           m_materials.at(index), m_position,
                           m_colours.at(index));
   const auto SphereProp = sphere.getGeometryProperty();
   auto sphereGeom = m_fabric->createGeometryElement(SphereProp, m_parent);
+  sphereGeom->setRotation(m_rotMatrix);
   lastOuter = outerR;
   return sphereGeom->construct(checkOverlaps);
 }

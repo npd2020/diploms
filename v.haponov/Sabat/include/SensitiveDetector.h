@@ -2,15 +2,9 @@
 
 #include <QMutex>
 #include <memory>
-#include <thread>
 
 #include <G4VSensitiveDetector.hh>
 #include "Utils.h"
-
-//#ifndef MUTEX_SABAT
-//#define MUTEX_SABAT
-// extern G4Mutex sabatMutex;
-//#endif
 
 class FileManager;
 class G4Step;

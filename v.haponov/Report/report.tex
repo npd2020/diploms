@@ -1,0 +1,106 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage{comment}
+
+\usepackage{setspace}
+\usepackage{indentfirst}
+%% Language and font encodings
+\usepackage{extsizes}
+\usepackage[english, russian, ukrainian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\linespread{1.6}
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=2cm,marginparwidth=1.75cm]{geometry}
+
+%\usepackage{fontspec}
+
+%% Useful packages
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{tikz}
+%\usepackage{subfigure}
+\usepackage[lofdepth,lotdepth]{subfig}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{lineno}
+
+%\linenumbers
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+
+\title{}
+
+
+\author[1]{V. Haponov}
+\author[2]{R. Yermolenko}
+\affil[1]{Taras Shevchenko National University of Kiev, Kiev, Ukraine}
+\affil[2]{}
+
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\itshape\normalsize}
+\renewcommand{\arraystretch}{1.5} %% increase table row spacing
+%\renewcommand{\tabcolsep}{1cm}
+
+\date{}
+\begin{document}
+	
+%content
+
+\selectlanguage{ukrainian}
+\newpage
+\tableofcontents
+\newpage
+\pagestyle{plain}
+\setcounter{page}{2}
+	
+%end 
+
+\section{Глава 1 \\}
+\setcounter{figure}{0} 
+
+\section{Глава 2 \\}
+\setcounter{figure}{0}
+
+\subsection{Опис детектора}
+	
+	Для моделювання чутливого об'єму був обраний надчистий германій, з діаметром 60.6 міліметрів, та довжиною 56.7 міліметрів. Рис. ~\ref{ris:s_detector_volume} \\
+	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=0.7\textwidth]{images/sDetector158cm3.png}
+		\caption{Форма чутливого об'єму} 
+		\label{ris:s_detector_volume}	
+	\end{figure} 
+
+	\newpage
+	Детектор буде розміщенний поряд з джерелом нейтронів високих енергій, 14.5 МеВ. Тому детектор був розміщений у трьох шаровий захист. Рис. ~\ref{ris:s_detector_P}
+	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=0.7\textwidth]{images/dectorPrt.png}
+		\caption{Захист детектора, Al - зелений товщина 2 см., B - жовтий товщина 5 см., Pb - червоний товщина 1 см. Блакитний шар повітря} 
+		\label{ris:s_detector_P}	
+	\end{figure} 
+
+	В захисті використовується Бор для поглинання теплових нейтронів, так як вся детекторна система буде знаходитися під водою, то нейтрони від джерела будуть втрачати енергію при пружному розсіянні на водню. 
+	
+	Опис реакцій на захисті -- та сповільнювачі \\
+	Опис вторинного альфа випроміннення від Бор --
+
+%literature
+\addcontentsline{toc}{section}{Література}
+\newpage
+\begin{thebibliography}{}
+%	\comment{кометар: це джерело звідки були взяті розміри детектора}  
+	\bibitem{1} \textit{R.M. Keyser and T.R. Twomey} - Extended Source Sensitivity and Resolution Comparisons of Several HPGe Detector Types with Low-energy Capabilities \\
+	\href{https://www.ortec-online.com/-/media/ametekortec/technical%20papers/high%20purity%20germanium%20detector%20applications%20and%20technology%20developements/extended-source-sensitivity-resolution-comparisons-several-hpge-detector-types-low-energy-capabilities.pdf?la=en}{ HPGe Detector Types}
+	
+\end{thebibliography}
+
+\end{document}

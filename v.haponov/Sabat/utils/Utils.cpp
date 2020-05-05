@@ -6,10 +6,13 @@
 
 namespace utils {
 
+const auto timeFormat = QString("_%1_%2_%3");
 void Utils::saveData(const vectorPtr &pointer, const double &hist_min,
                      const double &hist_max) {
-  const auto _time = QDateTime::currentDateTime().time().toString();
-  const auto _fname = QString(_spect_file_pattern).arg(_time).arg("txt");
+  const auto _time = QDateTime::currentDateTime().time().toString().split(':');
+  const auto _strTime =
+      QString(timeFormat).arg(_time.at(0)).arg(_time.at(1)).arg(_time.at(2));
+  const auto _fname = QString(_spect_file_pattern).arg(_strTime).arg("txt");
   const auto _fnameDir = QDir(_spectr_file_dir).filePath(_fname);
   if (!QFile(_fnameDir).exists()) {
     QDir().mkpath(_spectr_file_dir);
@@ -102,6 +105,7 @@ G4Material *Utils::materialCreator(G4NistManager *nist,
   material->SetChemicalFormula(mProp.m_chemicalFormula);
   const auto elList = mProp.m_elList;
   for (auto it = elList.constBegin(); it != elList.constEnd(); ++it) {
+    auto key = it.key();
     auto prEl = nist->FindOrBuildElement(it.key());
     if (!prEl) {
       LogInfo::FLog<Utils>(__func__, "element do not find",
@@ -122,9 +126,9 @@ G4ThreeVector Utils::countSourcePosition() {
 
 G4ThreeVector Utils::countSourceDirection() {
   const auto randCof = G4UniformRand() - 0.5;
-  const G4double Delta_Y_Dir = 2. * cm * randCof;
-  const G4double Delta_Z_Dir = sabat::sourceZpos / 2 * randCof;
-  const G4double Delta_X_Dir = 0 * randCof;
+  const G4double Delta_Y_Dir = 1. * cm * randCof;
+  const G4double Delta_Z_Dir = 0. * randCof;
+  const G4double Delta_X_Dir = 3. * randCof;
 
   const G4double xDir = -sabat::sourceXPos + Delta_X_Dir;
   const G4double yDir = -sabat::sourceYPos + Delta_Y_Dir;

@@ -60,9 +60,13 @@ DetectorSD::DetectorSD(const G4ThreeVector& pos, const G4String& name,
   Name = name;
   Position = pos;
   Colour = colour;
-  SizeX = dectorSize;
-  SizeY = dectorSize;
-  SizeZ = dectorSize;
+
+  SizeZ = detectorSizeZ;
+  innerR = 0;
+  outerR = detectorSizeR;
+  PhiMax = geometry::sabat::tubePhiMax;
+  PhiMin = geometry::sabat::tubePhiMin;
+  type = utils::geometry::GeometrySolid::Tube;
 }
 
 GeomProp DetectorSD::getProperties() const {

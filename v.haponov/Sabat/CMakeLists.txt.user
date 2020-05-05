@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.0, 2020-05-03T03:54:01. -->
+<!-- Written by QtCreator 4.11.0, 2020-05-04T13:24:05. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -77,7 +77,7 @@
      <value type="QString">Geant4_DIR:PATH=/home/valentyn/Geant4.10.05/lib/Geant4-10.5.1</value>
      <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
     </valuelist>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/valentyn/Documents/University/build-SabatSimulation</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/valentyn/Documents/University/build-Sabat_16k</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.AdditionalArguments"></value>
@@ -423,7 +423,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/valentyn/Documents/University/build-SabatSimulation</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/valentyn/Documents/University/build-Sabat_16k</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>

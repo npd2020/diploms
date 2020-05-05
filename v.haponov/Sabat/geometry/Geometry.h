@@ -18,6 +18,11 @@ class PrimaryElementBox : public GeomProp {
 };
 namespace sabat {
 
+constexpr G4double tubePhiMin = 0;
+constexpr G4double tubePhiMax = 360.0 * deg;
+constexpr G4double sphereThetaMin = 0;
+constexpr G4double sphereThetaMax = 90. * deg;
+
 constexpr G4double enviromentSize = 4. * cm;
 
 class Enviroment : public GeomProp {
@@ -46,7 +51,8 @@ class Bottom : public GeomProp {
  private:
 };
 
-constexpr G4double dectorSize = 3. * cm;
+constexpr G4double detectorSizeR = 3.3 * cm;
+constexpr G4double detectorSizeZ = 2.853 * cm;
 
 class DetectorSD : public GeomProp {
  public:

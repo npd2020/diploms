@@ -4,16 +4,18 @@
 #include "Geometry.h"
 #include "GeometryFabric.h"
 
+#include <math.h>
+
 namespace geometry {
 
 namespace sabat {
-constexpr G4double tubePhiMin = 0;
-constexpr G4double tubePhiMax = 360.0 * deg;
-constexpr G4double sphereThetaMin = 0;
-constexpr G4double sphereThetaMax = 90. * deg;
+
+const G4double rotationTube =
+    -atan(utils::sabat::sourceXPos / utils::sabat::sourceZpos);
 
 constexpr G4double tubeDeepth = 1 * cm;
-constexpr G4double tubeSizeZ = 3. * cm;
+constexpr G4double tubeSizeZ = 7. * cm;
+
 class ProtectionTube : public GeomProp {
  public:
   ProtectionTube(const G4double innerR, const G4double outerR,
@@ -37,10 +39,12 @@ using GeomFabricPtr = std::shared_ptr<geometry::GeometryFabric>;
 class CreateProtection {
  public:
   CreateProtection(const GeomFabricPtr& fabric, G4LogicalVolume* parent,
+                   G4RotationMatrix* rotMatrix = new G4RotationMatrix,
                    const G4ThreeVector& pos = G4ThreeVector(0, 0, 0));
 
-  QVector<G4LogicalVolume*> create() const;
-  G4LogicalVolume* createTube(const int index, G4double& lastOuter) const;
+  QVector<G4LogicalVolume*> create(const bool isSourceP = false) const;
+  G4LogicalVolume* createTube(const int index, G4double& lastOuter,
+                              const bool isSourceP = false) const;
   G4LogicalVolume* createSphere(const int index, G4double& lastOuter) const;
   void setCheckOverlaps(bool value);
 
@@ -48,11 +52,13 @@ class CreateProtection {
   G4LogicalVolume* m_parent;
   G4ThreeVector m_position;
   GeomFabricPtr m_fabric;
+  G4RotationMatrix* m_rotMatrix;
   bool checkOverlaps = true;
   const QVector<G4String> m_materials = {"G4_Pb", "G4_B", "G4_Al"};
   const QVector<G4String> m_names = {"First", "Second", "Third"};
+  const QVector<G4double> m_sizes = {1. * cm, 5. * cm, 2. * cm};
   const QVector<G4Colour> m_colours = {
-      utils::colours::brown, utils::colours::cyan, utils::colours::lgrey};
+      utils::colours::red, utils::colours::yellow, utils::colours::lgreen};
 };
 
 namespace detector {

@@ -4,6 +4,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <thread>
 
 #include <G4Step.hh>
 #include "G4SystemOfUnits.hh"
@@ -23,13 +24,11 @@ SensitiveDetector::SensitiveDetector(vectorPtr histogramPtr,
 
 G4bool SensitiveDetector::ProcessHits(G4Step* step,
                                       G4TouchableHistory* history) {
-  //  sabatMutex.lock();
+  m_counter->at()--;
   double energy = step->GetPreStepPoint()->GetKineticEnergy();
   double bin_width = (HIST_MAX - HIST_MIN) / utils::NOBINS;
   // Participal filter
   if (step->GetTrack()->GetDefinition()->GetParticleName() != "gamma") {
-    //    sabatMutex.unlock();
-    m_counter->at()--;
     return true;
   }
   int index = int(floor((energy - HIST_MIN) / bin_width));
@@ -47,18 +46,15 @@ G4bool SensitiveDetector::ProcessHits(G4Step* step,
   // Kill pariciple after target
   //  step->GetTrack()->SetTrackStatus(fStopAndKill);
   if (m_counter->at() <= 0) {
-    std::thread savingThread(utils::Utils::saveData, histogram, HIST_MIN,
-                             HIST_MAX);
-    savingThread.join();
+    std::thread saveThread(utils::Utils::saveData, histogram, HIST_MIN,
+                           HIST_MAX);
+    saveThread.join();
     m_counter->update(utils::_participalAmmount);
   }
-  //  sabatMutex.unlock();
-  m_counter->at()--;
   return true;
 }
 
 SensitiveDetector::~SensitiveDetector() {
   utils::Utils::saveData(histogram, HIST_MIN, HIST_MAX);
-  utils::Utils::squashData();
   LogInfo::FLog<SensitiveDetector>(__func__, "delete");
 }
