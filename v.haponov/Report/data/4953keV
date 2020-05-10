@@ -1,0 +1,27 @@
+Dataset #1:
+
+Author: M. Shamsuzzoha Basunia   Citation:Nuclear Data Sheets 113, 909 (2012)
+
+Parent
+Nucleus	Parent
+E(level)	Parent
+Jπ	Parent
+T1/2	Decay Mode 	GS-GS Q-value
+(keV)	Daughter
+Nucleus	Decay
+Scheme 	ENSDF
+file 
+29
+16	S
+ 0.0  	 (5/2+) 	 188 ms 4  	 β+ 	 13795 50 	 
+29
+15	P
+ 
+Gamma and X-ray radiation:
+
+Energy
+(keV)	Intensity
+(%)	Dose
+( MeV/Bq-s )
+  4954.1 5 	      1.7 % 5 	  0.084 25 
+

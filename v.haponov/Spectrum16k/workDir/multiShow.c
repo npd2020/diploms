@@ -12,7 +12,7 @@
    mg->Add( fon );
 
    TGraph * gr = new TGraph("must.txt");
-   gr->SetTitle("HPGe Mustard gas");
+   gr->SetTitle("HPGe Ag3AuS2");
    gr->SetLineColor(kRed);
    // gr->GetYaxis()->SetRangeUser(1, 7500);
    mg->Add( gr );
@@ -22,7 +22,7 @@
 
    mg->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
    mg->GetYaxis()->SetTitle("Counts / Neutron");
-   mg->GetYaxis()->SetRangeUser(0*std::pow(10, -11), 0.15*std::pow(10, -6));
+   mg->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
    mg->Draw("ALL");
 
    canvas->BuildLegend();
