@@ -1,0 +1,85 @@
+Dataset #31:
+
+Author: N. Nica   Citation:Nuclear Data Sheets 111, 525 (2010)
+
+Parent
+Nucleus	Parent
+E(level)	Parent
+Jπ	Parent
+T1/2	Decay Mode 	GS-GS Q-value
+(keV)	Daughter
+Nucleus	Decay
+Scheme 	ENSDF
+file 
+97
+47	Ag
+ 0.0  	 (9/2+) 	 25.5 s 3  	 ε: 100 % 	 6.98E+3 11 	 
+97
+46	Pd
+ 
+Gamma and X-ray radiation:
+
+Energy
+(keV)	Intensity
+(%)	Dose
+( MeV/Bq-s )
+  1442.9 2 	      0.080 % 20 	  0.0012 3 
+  1446.1 2 	      0.10 % 4 	  0.0014 6 
+  1448.0 1 	      2.30 % 20 	  0.033 3 
+
+
+Dataset #32:
+
+Authors: Balraj Singh, Zhiqiang Hu   Citation:Nuclear Data Sheets 98, 335 (2003)
+
+Parent
+Nucleus	Parent
+E(level)	Parent
+Jπ	Parent
+T1/2	Decay Mode 	GS-GS Q-value
+(keV)	Daughter
+Nucleus	Decay
+Scheme 	ENSDF
+file 
+98
+47	Ag
+ 0  	 (6+) 	 47.5 s 3  	 ε 	 8200 70 	 
+98
+46	Pd
+ 
+Gamma and X-ray radiation:
+
+Energy
+(keV)	Intensity
+(%)	Dose
+( MeV/Bq-s )
+  1445.4 2 	      0.170 % 20 	  0.0025 3 
+
+
+Dataset #1:
+
+Authors: Tilley, Weller, Cheves, Chasteler   Citation:Nuclear Physics A595, 1 (1995)
+
+Parent
+Nucleus	Parent
+E(level)	Parent
+Jπ	Parent
+T1/2	Decay Mode 	GS-GS Q-value
+(keV)	Daughter
+Nucleus	Decay
+Scheme 	ENSDF
+file 
+19
+8	O
+ 0  	 5/2+ 	 26.88 s 5  	 β-: 100 % 	 4819.6 29 	 
+19
+9	F
+ 
+Gamma and X-ray radiation:
+
+Energy
+(keV)	Intensity
+(%)	Dose
+( MeV/Bq-s )
+  1444.085 10 	      2.64 % 6 	  0.0381 9 
+

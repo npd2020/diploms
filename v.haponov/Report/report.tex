@@ -100,11 +100,6 @@
 	Fano factor Ge = 0.13 
 	Ширина забороненої зони 0,67 Т = 300 К
 	
-	
-\newpage
-\section{Глава 3}
-\setcounter{figure}{0}
-
 \subsection{Опис коду моделі}
 
 	\begin{figure}[hbt!]
@@ -116,10 +111,42 @@
 
 	Цілью було написати максимально зручний код для набору спектрів за різних умов та на різних мішеннях, тому були створені абстрактні класси для створення геометричних об'єктів. Для зручності створення матеріалів були створенні структури. 
 	Та для пришвидшення роботи були всі можливі константи ініціалізувалися на етапі компіляції. Для полегшення контролю над пам'яттю використовувалися розумні вказівники С++ 11 стандарту.
+	
+\newpage 
+\section{Глава 3}
+\setcounter{figure}{0}
 
+\subsection{Валідація моделі}
+
+	Для підтвердження можливості проведення наборів на моїй моделі був набраний спектор для Гірчичного газу. Рис ~\ref{ris:MustBackAllLogSm}. Та порівняний з отриманим спектром в статьї <link to source ?help> 	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/smMustFonAll.pdf}
+		\caption{Червоним - представлений спектор для Гірчичного газу. Синім - фону} 
+		\label{ris:MustBackAllLogSm}	
+	\end{figure} 
+
+	У висновках до проведеної роботи в данної статьї було вказано, що най більш вираженими і читкіми були лінії Cl 7,42 7,80 8,58 МеВ, також було вказано ряд ліній які їм не вдалося валідувати (перефразувати "лінії") 
+	На Рис. ~\ref{ris:MustFon78} - зоображені піки 7.42 та 7.80 МеВ
+	Рис.  ~\ref{ris:MustFon89} - 8.58 МеВ	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/mustFon78.pdf}
+		\caption{Червоним - представлений спектор для Гірчичного газу. Синім - фону} 
+		\label{ris:MustFon78}	
+	\end{figure} 	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/mustFon89.pdf}
+		\caption{Червоним - представлений спектор для Гірчичного газу. Синім - фону} 
+		\label{ris:MustFon89}	
+	\end{figure} 
+	
+	
+
+\newpage	
 %literature
 \addcontentsline{toc}{section}{Література}
-\newpage
 \begin{thebibliography}{}
 	
 %	\comment{кометар: це джерело звідки були взяті розміри детектора}  
