@@ -62,17 +62,18 @@
 %end 
 
 \newpage
-\section{Глава 1 \\}
+\section{Глава 1}
 \setcounter{figure}{0} 
+\subsection{Geant4 MultiThreading}
 
 \subsection{$QGSP\_BERT$}
-	$QGSP\_BERT\_HP$ - ця фізична модель входить в перелік стандартних фізичних моделей розрахункового пакету Geant4
+	$QGSP\_BERT$ - ця фізична модель входить в перелік стандартних фізичних моделей розрахункового пакету Geant4
 	Базується на каскадній моделі Бертіні та враховує реакції для нейтронів менше ніж 20 МеВ. Для валідації данної моделі необхідне виконання наступних умов $\frac{\lambda_B}{\nu} \ll \tau_c \ll \Delta{t}$, $\lambda_B$ - хвиля де-Бролля для налітаючої частинки, $\nu$ - швидкість налітаючої частинки, $\Delta{t}$ - час між зіткненнями. Та модель яка лягла в основу коду Geant4 була протестована на частинках з енергіями від 100 МеВ до 3 ГеВ
-	
-\newpage
-\section{Глава 2 \\}
-\setcounter{figure}{0}
+\subsection{Джерела нейтронів}
 
+\newpage
+\section{Глава 2}
+\setcounter{figure}{0}
 \subsection{Опис детектора}
 	
 	Для моделювання чутливого об'єму був обраний надчистий германій, з діаметром 60.6 міліметрів, та довжиною 56.7 міліметрів. Рис. ~\ref{ris:s_detector_volume} \\
@@ -98,7 +99,10 @@
 	Опис реакцій на захисті -- та сповільнювачі \\
 	Опис вторинного альфа випроміннення від Бор --
 	Fano factor Ge = 0.13 
-	Ширина забороненої зони 0,67 Т = 300 К
+	Для утворення пари 3.62 еВ = 300 К
+
+\subsection{Опис джерела}
+	
 	
 \subsection{Опис коду моделі}
 
@@ -115,6 +119,9 @@
 \newpage 
 \section{Глава 3}
 \setcounter{figure}{0}
+\subsection{Опис обробки спектру}
+
+В результаті моделювання, чутливим об'ємом набирались апаратні спектри, для чутливого об'єму було встановленно 16384 біни. Далі для наближення спектру до реального, була проведенне його сглажування за наступної формулою $\Delta{E} = 2.36 \sqrt{F  \frac{w}{E}}  w$, $\Delta{E}$ - енергія на один бін, F - Фано фактор, w - кількість енргії на утворення пари, та пронормований на кількість нейтронів з джерела. Так як для спрощення побудови джерела в моделі, використовувалась спрощенна геометрія, а генерація нейтронів відбувалась майже строго у заданому напрямку. Так як джерело нейтронів вважалося ізотропним, то загальна кількіть частинок розраховувалась наступною формолую $ 4 \pi n = N$, де $N -$ це загальна кількість чатсинок.
 
 \subsection{Валідація моделі}
 
@@ -142,23 +149,44 @@
 	\end{figure} 
 	
 \newpage
+
 \subsection{Аналіз спектрів $Ag_3AuS_2$}
 
-	\begin{figure}[h!]
+	За матеріал було обрано ютенбогардтит $Ag_3AuS_2$ - родовища з данними мінералами були знайдені на камчатці поблизу побережжня. Данний мінерал відноситься до рідкисних золотоносних руд, зустрічаеться в природі у твердому стані. Був знайдений на Камчатських родовищах
+	
+	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/auFonAllLog.pdf}
 		\caption{Червоним - представлений спектор для $Ag_3AuS_2$. Синім - фону} 
 		\label{ris:Ag3AuS2Fon}	
 	\end{figure} 	
 
+	Данний спектор і фон були набрані при опроміненні нейтронами з джерела максимальної енергією 14.5 МеВ
+	Для порівняння було проведенно опромінення за допомгою нейтронів енергією 8.5 та 2.8 МеВ
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
-		\centering \includegraphics[width=1\textwidth]{res/Ag3AuS24143.pdf}
+		\centering \includegraphics[width=1\textwidth]{res/Ag3AuS2_8_5MeVFonClasic.pdf}
+		\caption{Червона - лінія спектру, набраного за опромінення нейтронами 8.5 МеВ}
+		\label{ris:Ag3AuS28_5MeV}	
+	\end{figure} 
+	
+	Піки по близу 3, 4 і 5 МеВ майже не втратили інтенсивності тому саме вони були взяті в подальшу обробку. На данному графіку був взятий фон з опромінення 14.5 МеВ нейтронами.
+	
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/fit/Ag3AuS24143.pdf}
 		\caption{Пік поблизу 4 МеВ}
 		\label{ris:Ag3AuS24143}	
 	\end{figure} 
 
-
+\subsection{Аналіз спектрів $CuFeS_2$}
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/smCuFeS2FonAll.pdf}
+		\caption{Червоним - представлений спектор для $CuFeS_2$. Синім - фону} 
+		\label{ris:CuFeS_2Fon}	
+	\end{figure} 	
+		
 \newpage	
 %literature
 \addcontentsline{toc}{section}{Література}
@@ -170,6 +198,13 @@
 		
 	\bibitem{1} \textit{Aatos Heikkinen, Nikita Stepanov Helsinki Institute of Physics, P.O. Box 64, FIN-00014 University of Helsinki, Finland Johannes Peter Wellisch CERN, Geneva, Switzerland} - Bertini intra-nuclear cascade implementation in Geant4
 	\href{https://www.slac.stanford.edu/econf/C0303241/proc/papers/MOMT008.PDF}{link}
+	
+	\bibitem{1} \textit{Ю.В. Сереткин, Г.А. Пальянова Институт геологии и минералогии им. В.С. Соболева СО РАН} - ИЗОМОРФНОЕ ЗАМЕЩЕНИЕ СЕРЫ СЕЛЕНОМ И МОРФОТРОПНЫЙ ПЕРЕХОД В РЯДУ $Ag_3Au(Se,S)_2$
+	\href{https://www.sibran.ru/upload/iblock/478/478309021b63c0dc426e82c4025e6471.pdf}{link}
+	
+	\bibitem{1} \textit{В. М. Округин1, А. У. Ким} О рудах Асачинского золото-серебряного месторождения
+	(Южная Камчатка)
+	\href{http://www.kscnet.ru/ivs/publication/volc_day/2014/art51.pdf}{link}
 	
 \end{thebibliography}
 
