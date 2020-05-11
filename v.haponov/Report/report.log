@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.16)  11 MAY 2020 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.16)  11 MAY 2020 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,312 +856,469 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (./report.toc)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
+File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+
+ []
+
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 80--84
+  $[]$
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
+File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+)
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 94.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (52.6741pt too wide) in paragraph at lines 106--108
+\T2A/cmr/m/n/14.4 стив ква-лi-фi-ка-цiй-ну ро-бо-ту ба-ка-лав-ра з оцiн-кою []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 112.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.112 \end{titlepage}
+                      [1]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (7.28302pt too wide) in paragraph at lines 120--126
+\T2A/cmr/m/it/14.4 унi-вер-си-тет iме-нi Та-ра-са Шев-чен-ка, фi-зи-чний фа-кул
+ь-тет, ка-фе-дра ядер-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--126
+
+ []
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 127.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 127.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 \newpage
+               [1]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 140.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 140.
+ [2] (./report.toc)
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 58.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
-File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-)
+(babel)             in language  on input line 142.
+ [3]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 151.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 151.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 153.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 74.
-[2]
+(babel)             in language  on input line 158.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158 \newpage
+               [2]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 77.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-<images/sDetector158cm3.png, id=98, 256.96pt x 256.96pt>
+(babel)             in language  on input line 161.
+<images/sDetector158cm3.png, id=131, 256.96pt x 256.96pt>
 File: images/sDetector158cm3.png Graphic file (type png)
 <use images/sDetector158cm3.png>
-Package pdftex.def Info: images/sDetector158cm3.png  used on input line 83.
+Package pdftex.def Info: images/sDetector158cm3.png  used on input line 166.
 (pdftex.def)             Requested size: 318.66948pt x 318.69376pt.
-<images/dectorPrt.png, id=101, 477.785pt x 476.78125pt>
+<images/dectorPrt.png, id=134, 477.785pt x 476.78125pt>
 File: images/dectorPrt.png Graphic file (type png)
 <use images/dectorPrt.png>
-Package pdftex.def Info: images/dectorPrt.png  used on input line 92.
+Package pdftex.def Info: images/dectorPrt.png  used on input line 173.
 (pdftex.def)             Requested size: 318.66948pt x 318.0013pt.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 103.
-[3 <./images/sDetector158cm3.png>]
+(babel)             in language  on input line 183.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 
+       [3 <./images/sDetector158cm3.png>]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 107.
-<res/classDiagram.pdf, id=109, 1395.2125pt x 662.475pt>
+(babel)             in language  on input line 190.
+<res/classDiagram.pdf, id=142, 1395.2125pt x 662.475pt>
 File: res/classDiagram.pdf Graphic file (type pdf)
 <use res/classDiagram.pdf>
-Package pdftex.def Info: res/classDiagram.pdf  used on input line 111.
+Package pdftex.def Info: res/classDiagram.pdf  used on input line 194.
 (pdftex.def)             Requested size: 455.24411pt x 216.16104pt.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 200.
  [4 <./images/dectorPrt.png>]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 126.
-<res/smMustFonAll.pdf, id=116, 569.12625pt x 385.44pt>
-File: res/smMustFonAll.pdf Graphic file (type pdf)
-<use res/smMustFonAll.pdf>
-Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 131.
-(pdftex.def)             Requested size: 455.24411pt x 308.32889pt.
-<res/mustFon78.pdf, id=119, 569.12625pt x 322.20375pt>
-File: res/mustFon78.pdf Graphic file (type pdf)
-<use res/mustFon78.pdf>
-Package pdftex.def Info: res/mustFon78.pdf  used on input line 140.
-(pdftex.def)             Requested size: 455.24411pt x 257.74368pt.
-<res/mustFon89.pdf, id=120, 569.12625pt x 312.16624pt>
-File: res/mustFon89.pdf Graphic file (type pdf)
-<use res/mustFon89.pdf>
-Package pdftex.def Info: res/mustFon89.pdf  used on input line 146.
-(pdftex.def)             Requested size: 455.24411pt x 249.71428pt.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 201.
  [5 <./res/classDiagram.pdf>]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 151.
- [6 <./res/smMustFonAll.pdf, page is rotated 90 degrees>]
+(babel)             in language  on input line 204.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 208.
+<res/smMustFonAll.pdf, id=159, 569.12625pt x 385.44pt>
+File: res/smMustFonAll.pdf Graphic file (type pdf)
+<use res/smMustFonAll.pdf>
+Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 213.
+(pdftex.def)             Requested size: 455.24411pt x 308.32889pt.
+<res/mustFon78.pdf, id=162, 569.12625pt x 322.20375pt>
+File: res/mustFon78.pdf Graphic file (type pdf)
+<use res/mustFon78.pdf>
+Package pdftex.def Info: res/mustFon78.pdf  used on input line 222.
+(pdftex.def)             Requested size: 455.24411pt x 257.74368pt.
+<res/mustFon89.pdf, id=163, 569.12625pt x 312.16624pt>
+File: res/mustFon89.pdf Graphic file (type pdf)
+<use res/mustFon89.pdf>
+Package pdftex.def Info: res/mustFon89.pdf  used on input line 228.
+(pdftex.def)             Requested size: 455.24411pt x 249.71428pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 233.
+ [6]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 235.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 153.
+(hyperref)                removing `math shift' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 153.
+(hyperref)                removing `subscript' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 153.
+(hyperref)                removing `subscript' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 153.
+(hyperref)                removing `math shift' on input line 235.
 
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 156.
-[7 <./res/mustFon78.pdf, page is rotated 90 degrees> <./res/mustFon89.pdf, page
- is rotated 90 degrees>]
-<res/auFonAllLog.pdf, id=273, 569.12625pt x 347.2975pt>
+<res/auFonAllLog.pdf, id=174, 569.12625pt x 347.2975pt>
 File: res/auFonAllLog.pdf Graphic file (type pdf)
 <use res/auFonAllLog.pdf>
-Package pdftex.def Info: res/auFonAllLog.pdf  used on input line 159.
+Package pdftex.def Info: res/auFonAllLog.pdf  used on input line 240.
 (pdftex.def)             Requested size: 455.24411pt x 277.81717pt.
-<res/Ag3AuS2_8_5MeVFonClasic.pdf, id=274, 569.12625pt x 304.13625pt>
+<res/Ag3AuS2_8_5MeVFonClasic.pdf, id=176, 569.12625pt x 304.13625pt>
 File: res/Ag3AuS2_8_5MeVFonClasic.pdf Graphic file (type pdf)
 <use res/Ag3AuS2_8_5MeVFonClasic.pdf>
-Package pdftex.def Info: res/Ag3AuS2_8_5MeVFonClasic.pdf  used on input line 16
+Package pdftex.def Info: res/Ag3AuS2_8_5MeVFonClasic.pdf  used on input line 24
 8.
 (pdftex.def)             Requested size: 455.24411pt x 243.29076pt.
-<res/fit/Ag3AuS24143.pdf, id=275, 569.12625pt x 308.15125pt>
+<res/fit/Ag3AuS24143.pdf, id=178, 569.12625pt x 308.15125pt>
 File: res/fit/Ag3AuS24143.pdf Graphic file (type pdf)
 <use res/fit/Ag3AuS24143.pdf>
-Package pdftex.def Info: res/fit/Ag3AuS24143.pdf  used on input line 177.
+Package pdftex.def Info: res/fit/Ag3AuS24143.pdf  used on input line 255.
 (pdftex.def)             Requested size: 455.24411pt x 246.50252pt.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 259.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 259.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 259.
+[7 <./res/smMustFonAll.pdf, page is rotated 90 degrees> <./res/mustFon78.pdf, p
+age is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 259.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 259.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 259.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 182.
+(hyperref)                removing `\gamma' on input line 259.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 259.
 
-<res/smCuFeS2FonAll.pdf, id=276, 569.12625pt x 299.1175pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 261.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 261.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 261.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 261.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 261.
+
+<res/smCuFeS2FonAll.pdf, id=270, 569.12625pt x 299.1175pt>
 File: res/smCuFeS2FonAll.pdf Graphic file (type pdf)
 <use res/smCuFeS2FonAll.pdf>
-Package pdftex.def Info: res/smCuFeS2FonAll.pdf  used on input line 185.
+Package pdftex.def Info: res/smCuFeS2FonAll.pdf  used on input line 265.
 (pdftex.def)             Requested size: 455.24411pt x 239.27606pt.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 190.
-[8 <./res/auFonAllLog.pdf, page is rotated 90 degrees>]
+(babel)             in language  on input line 270.
+[8 <./res/mustFon89.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 270.
+ [9 <./res/auFonAllLog.pdf, page is rotated 90 degrees> <./res/Ag3AuS2_8_5MeVFo
+nClasic.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 199.
- [9 <./res/Ag3AuS2_8_5MeVFonClasic.pdf, page is rotated 90 degrees> <./res/fit/
-Ag3AuS24143.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): destination
- with the same identifier (name{cite.1}) has been already used, duplicate ignor
-ed
-<to be read again> 
-                   \relax 
-l.199 	\bibitem{1}
-                   \textit{Aatos Heikkinen, Nikita Stepanov Helsinki Institu...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 	\bibitem{1}
-                   \textit{Р®.Р’. РЎРµСЂРµС‚РєРёРЅ, Р“.Рђ. РџР°Р»СЊСЏРЅРѕРІР...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 	\bibitem{1}
-                   \textit{Р’. Рњ. РћРєСЂСѓРіРёРЅ1, Рђ. РЈ. РљРёРј} Рћ СЂСѓР...
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 211.
-[10 <./res/smCuFeS2FonAll.pdf, page is rotated 90 degrees>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
- (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: F6364091B2ACCB009D4ACD4B9EFDFF7D;2231.
+(babel)             in language  on input line 271.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 271.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 271.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 271.
+
+<res/poorUranium.pdf, id=413, 569.12625pt x 333.245pt>
+File: res/poorUranium.pdf Graphic file (type pdf)
+<use res/poorUranium.pdf>
+Package pdftex.def Info: res/poorUranium.pdf  used on input line 275.
+(pdftex.def)             Requested size: 455.24411pt x 266.576pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 280.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 280.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 280.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 280.
+[10 <./res/fit/Ag3AuS24143.pdf, page is rotated 90 degrees> <./res/smCuFeS2FonA
+ll.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 281.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 281.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 281.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 281.
+ [11 <./res/poorUranium.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 283.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 283.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 302.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 302.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 302.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 302.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.302 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.302 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.302 \end{document}
+                    ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: B943E566C9DC2B57BB008B61EB3F895C;2715
+(rerunfilecheck)             After:  CA50947955070E0BF6EE178C0AF170AB;2773.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
  ) 
 Here is how much of TeX's memory you used:
- 23494 strings out of 492982
- 409756 string characters out of 6134896
- 468266 words of memory out of 5000000
- 26624 multiletter control sequences out of 15000+600000
- 17038 words of font info for 39 fonts, out of 8000000 for 9000
+ 24251 strings out of 492982
+ 417971 string characters out of 6134896
+ 468405 words of memory out of 5000000
+ 27353 multiletter control sequences out of 15000+600000
+ 24717 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,96p,1306b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report.pdf (10 pages, 585619 bytes).
+ 62i,7n,96p,1306b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
+1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
+440.pfb>
+Output written on report.pdf (16 pages, 756486 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 37 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 633 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

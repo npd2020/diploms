@@ -49,9 +49,93 @@
 
 \date{}
 \begin{document}
-	
-%content
+\begin{titlepage}
+\renewcommand{\baselinestretch}{1.0}
+\selectlanguage{ukrainian}
+\begin{center}
+КИЇВСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ ІМЕНІ ТАРАСА ШЕВЧЕНКА\\Фізичний факультет\\Кафедра ядерної фізики
+\end{center}
+\vspace*{1.5cm}
+{}\hfill\mbox{На правах рукопису}
 
+\vspace*{3cm}
+\begin{center} {\bf
+}
+\end{center}
+\medskip
+\vspace*{0.7cm}
+	\begin{flushleft}
+		\parbox{12cm}{
+		\textbf{Галузь знань:} 10 <<Природничі науки>>
+		
+		\textbf{Освітня програма} - Фізика
+		
+		\textbf{Спеціальність} - 104 <<Фізика та астрономія>>
+		
+		\textbf{Спеціалізація} Ядерна енергетика
+		}
+	\end{flushleft}
+\renewcommand{\baselinestretch}{1.5}
+\vspace*{1cm}
+{}\hfill\hspace{7.5cm}\parbox{9cm}{\textbf{Кваліфікаційна робота бакалавра}\\
+студента 4 курсу\\ Гапонова Валентина Вікторовича \\ \\ 
+\textbf{Науковий керівник} \\ доц. ф.-м. наук\\ Єрмоленко Руслан Вікторович}
+\bigskip
+
+
+\vfill
+{\small \noindent
+Робота заслухана на засіданні кафедри ядерної фізики та рекомендована до захисту на ЕК, протокол , протокол № \underline{\hspace{1.0cm}}  від <<\underline{\hspace{1.0cm}}>> \underline{\hspace{3.5cm}}2020 р.\\[0.4cm]
+Завідувач кафедри \hspace{9 cm} Каденко І. М.}
+%\bigskip
+\vfill
+\begin{center} Київ, 2020 \end{center}
+
+\end{titlepage}
+
+\begin{titlepage}
+\renewcommand{\baselinestretch}{1.0}
+\selectlanguage{ukrainian}
+\newcommand{\ul}[1]{\rule{#1}{0.1pt}}
+	\begin{spacing}{1.8}
+		\vspace*{4.5cm}
+		{\center
+		{\bf ВИТЯГ}\\
+		з протоколу № \ul{2.4cm}\\
+		засідання Екзаменаційної комісії\\[2cm]}
+		{\noindent
+		Визнати, що студент \ul{7.2cm} виконав та захистив кваліфікаційну роботу бакалавра з оцінкою \ul{7.2cm} .\\[1cm]}
+		{\flushright
+		Голова ЕК \ul{7.8cm}\\
+		<<\ul{1cm}>> \ul{4cm} 2020 р.\\}
+	\end{spacing}
+\end{titlepage}
+
+%{\renewcommand{\baselinestretch}{1.2}
+
+\pagestyle{empty}
+
+\section*{Анотація}
+
+{\bf Гапонов В.В.} ""\\
+{\itshape Кваліфікаційна робота бакалавра за напрямом підготовки 6.040203 --- Фізика, спеціалізація «Ядерна енергетика». --- Київський національний університет імені Тараса Шевченка, фізичний факультет, кафедра ядерної фізики. --- Київ, 2020.} \\
+{\itshape \bfseries Науковий керівник:} д. ф.-м. н. Єрмоленко Р.В.%[0.5cm]
+\\[0.5cm]
+\\
+{\bf Ключові слова:} Нейтронно активаційний аналіз, германиєвий детектор, метод Монте Карло\\   
+
+\newpage
+\thispagestyle{empty}
+\selectlanguage{english}
+\section*{Summary}
+
+{\bf Haponov V.V.} ""\\
+{\itshape Qualifying work of the bachelor on a speciality 6.040203 --- physics, specialization "Nuclear power". --- Taras Shevchenko National University of Kyiv, Faculty of Physics, Department of Nuclear Physics. --- Kyiv, 2020.\\}
+{\itshape \bfseries Research supervisor:} Dr. R. Yermolenko.
+\\[0.5cm]
+{\bf Key words:}.
+
+%content
 \selectlanguage{ukrainian}
 \newpage
 \tableofcontents
@@ -62,9 +146,9 @@
 %end 
 
 \newpage
-\section{Глава 1}
+\section{Розділ 1}
 \setcounter{figure}{0} 
-\subsection{Geant4 MultiThreading}
+\subsection{Мультипоточність Geant4}
 
 \subsection{$QGSP\_BERT$}
 	$QGSP\_BERT$ - ця фізична модель входить в перелік стандартних фізичних моделей розрахункового пакету Geant4
@@ -72,32 +156,31 @@
 \subsection{Джерела нейтронів}
 
 \newpage
-\section{Глава 2}
+\section{Розділ 2}
 \setcounter{figure}{0}
 \subsection{Опис детектора}
 	
-	Для моделювання чутливого об'єму був обраний надчистий германій, з діаметром 60.6 міліметрів, та довжиною 56.7 міліметрів. Рис. ~\ref{ris:s_detector_volume} \\
-	
+	Для моделювання чутливого об'єму був обраний надчистий германій, з діаметром 60.6 міліметрів, та довжиною 56.7 міліметрів. Рис. ~\ref{ris:s_detector_volume} 	
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=0.7\textwidth]{images/sDetector158cm3.png}
 		\caption{Форма чутливого об'єму} 
 		\label{ris:s_detector_volume}	
-	\end{figure} 
-
-	Детектор буде розміщенний поряд з джерелом нейтронів високих енергій, 14.5 МеВ. Тому детектор був розміщений у трьох шаровий захист. Рис. ~\ref{ris:s_detector_P}
-	
+	\end{figure}
+	Детектор буде розміщенний поряд з джерелом нейтронів високих енергій, 14.5 МеВ. Тому детектор був розміщений у трьох шаровий захист. Рис. ~\ref{ris:s_detector_P}	
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=0.7\textwidth]{images/dectorPrt.png}
 		\caption{Захист детектора, Al - зелений товщина 2 см., B - жовтий товщина 5 см., Pb - червоний товщина 1 см. Блакитний шар повітря} 
 		\label{ris:s_detector_P}	
 	\end{figure} 
-
 	В захисті використовується Бор для поглинання теплових нейтронів, так як вся детекторна система буде знаходитися під водою, то нейтрони від джерела будуть втрачати енергію при пружному розсіянні на водню. 
 	
 	Опис реакцій на захисті -- та сповільнювачі \\
-	Опис вторинного альфа випроміннення від Бор --
+	Для поглинання теплових нейтронів перед чутливім об'ємом детектора був обраний $B^{10}$. Використовується в ТВЕЛ-ах для контролю кількості теплових нейтронів в активній зоні реакторної установки ВВЕР. 
+	$B^{10} ( n, \alpha \gamma)Li_3^7$, Переріз захоплення нейтрона $B^{10} \ \sigma = 3320$ барн.
+	Енергія $\gamma$ - частинки 480 кеВ
+	
 	Fano factor Ge = 0.13 
 	Для утворення пари 3.62 еВ = 300 К
 
@@ -112,12 +195,11 @@
 		\caption{Діаграма класів коду моделі} 
 		\label{ris:s_classDiagram}	
 	\end{figure} 
-
 	Цілью було написати максимально зручний код для набору спектрів за різних умов та на різних мішеннях, тому були створені абстрактні класси для створення геометричних об'єктів. Для зручності створення матеріалів були створенні структури. 
-	Та для пришвидшення роботи були всі можливі константи ініціалізувалися на етапі компіляції. Для полегшення контролю над пам'яттю використовувалися розумні вказівники С++ 11 стандарту.
+	Та для пришвидшення роботи були всі можливі константи ініціалізувалися на етапі компіляції. Для полегшення контролю над пам'яттю використовувалися розумні вказівники С++ 14 стандарту. Архітектура коду моделювання зоображена на Рис. ~\ref{ris:s_classDiagram} 
 	
 \newpage 
-\section{Глава 3}
+\section{Розділ 3}
 \setcounter{figure}{0}
 \subsection{Опис обробки спектру}
 
@@ -126,7 +208,7 @@
 \subsection{Валідація моделі}
 
 	Для підтвердження можливості проведення наборів на моїй моделі був набраний спектор для Гірчичного газу. Рис ~\ref{ris:MustBackAllLogSm}. Та порівняний з отриманим спектром в статьї <link to source ?help> 	
-	\begin{figure}[h!]
+	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/smMustFonAll.pdf}
 		\caption{Червоним - представлений спектор для Гірчичного газу. Синім - фону} 
@@ -152,41 +234,50 @@
 
 \subsection{Аналіз спектрів $Ag_3AuS_2$}
 
-	За матеріал було обрано ютенбогардтит $Ag_3AuS_2$ - родовища з данними мінералами були знайдені на камчатці поблизу побережжня. Данний мінерал відноситься до рідкисних золотоносних руд, зустрічаеться в природі у твердому стані. Був знайдений на Камчатських родовищах
-	
+	За матеріал було обрано ютенбогардтит $Ag_3AuS_2$ - родовища з данними мінералами були знайдені на камчатці поблизу побережжня. Данний мінерал відноситься до рідкисних золотоносних руд, зустрічаеться в природі у твердому стані. Був знайдений на Камчатських родовищах. Рис. ~\ref{ris:Ag3AuS2Fon}	
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/auFonAllLog.pdf}
 		\caption{Червоним - представлений спектор для $Ag_3AuS_2$. Синім - фону} 
 		\label{ris:Ag3AuS2Fon}	
 	\end{figure} 	
-
 	Данний спектор і фон були набрані при опроміненні нейтронами з джерела максимальної енергією 14.5 МеВ
-	Для порівняння було проведенно опромінення за допомгою нейтронів енергією 8.5 та 2.8 МеВ
+	Для порівняння було проведенно опромінення за допомгою нейтронів енергією 8.5 та 2.8 МеВ. Рис. ~\ref{ris:Ag3AuS28_5MeV}
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/Ag3AuS2_8_5MeVFonClasic.pdf}
 		\caption{Червона - лінія спектру, набраного за опромінення нейтронами 8.5 МеВ}
 		\label{ris:Ag3AuS28_5MeV}	
-	\end{figure} 
-	
-	Піки по близу 3, 4 і 5 МеВ майже не втратили інтенсивності тому саме вони були взяті в подальшу обробку. На данному графіку був взятий фон з опромінення 14.5 МеВ нейтронами.
-	
+	\end{figure} 	
+	Піки по близу 3, 4 і 5 МеВ майже не втратили інтенсивності тому саме вони були взяті в подальшу обробку. На данному графіку був взятий фон з опромінення 14.5 МеВ нейтронами. Рис. ~\ref{ris:Ag3AuS28_5MeV}	
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/fit/Ag3AuS24143.pdf}
 		\caption{Пік поблизу 4 МеВ}
 		\label{ris:Ag3AuS24143}	
 	\end{figure} 
+\subsection{Дослідження $Au(n, \gamma)$ реакцій} 
 
 \subsection{Аналіз спектрів $CuFeS_2$}
+	Данний мінерал являеться основною складовою мідної руди, спектор для нього представлений на Рис. ~\ref{ris:CuFeS_2Fon}
 	\begin{figure}[hbt!]
 		%\vspace{-10pt}
 		\centering \includegraphics[width=1\textwidth]{res/smCuFeS2FonAll.pdf}
 		\caption{Червоним - представлений спектор для $CuFeS_2$. Синім - фону} 
 		\label{ris:CuFeS_2Fon}	
 	\end{figure} 	
+	В високо енергетичній частині спектру можна спостерігати пік для $S_2$
 		
+\subsection{Аналіз спектру $U^{238}$}
+	<Мета набору> Було обрано збіднений уран, з наступним ізотопічним складом $99.27\% -\  ^{238}U$, $ 0.72\% - \  ^{235}U$, $ 0.005\% - \ ^{234}U$, У ході набору було отримано наступний спектор Рисю ~\ref{ris:poorU}
+	\begin{figure}[hbt!]
+		%\vspace{-10pt}
+		\centering \includegraphics[width=1\textwidth]{res/poorUranium.pdf}
+		\caption{Червоним - представлений спектор для $U^{238}$. Синім - фону} 
+		\label{ris:poorU}	
+	\end{figure} 	 
+	На данному спектрі можна спостерігат
+	
 \newpage	
 %literature
 \addcontentsline{toc}{section}{Література}
