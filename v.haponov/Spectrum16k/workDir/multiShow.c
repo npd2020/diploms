@@ -12,7 +12,7 @@
    mg->Add( fon );
 
    TGraph * gr = new TGraph("must.txt");
-   gr->SetTitle("HPGe Uranium");
+   gr->SetTitle("HPGe Ag3AuS2");
    gr->SetLineColor(kRed);
    // gr->GetYaxis()->SetRangeUser(1, 7500);
    mg->Add( gr );

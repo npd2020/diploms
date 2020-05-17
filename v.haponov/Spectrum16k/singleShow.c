@@ -15,7 +15,7 @@
    gr->SetTitle("HPGe Background");
    gr->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
    gr->GetYaxis()->SetTitle("Counts / Neutron");
-   //gr->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
+   gr->GetYaxis()->SetRangeUser(1*std::pow(10, -10), 0.5*std::pow(10, -6));
    //gr->GetYaxis()->SetRangeUser(1, 300);
    gr->Draw("ALL");
    // gr->SetLineColor(kRed);
