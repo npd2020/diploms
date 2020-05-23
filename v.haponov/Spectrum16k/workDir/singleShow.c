@@ -12,7 +12,7 @@
    mg->Add( fon );
 */
    TGraph * gr = new TGraph("graph.txt");
-   gr->SetTitle("HPGe Background");
+   gr->SetTitle("HPGe Ag3AuS2");
    gr->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
    gr->GetYaxis()->SetTitle("Counts / Neutron");
    //gr->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
