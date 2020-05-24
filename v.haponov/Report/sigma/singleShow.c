@@ -1,6 +1,5 @@
 {
    auto canvas = new TCanvas("c47","c47", 600,400);
-   auto mg = new TMultiGraph;
   // mg->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
   // mg->GetYaxis()->SetTitle("Counts/Neutron");
 /*
@@ -11,11 +10,11 @@
    // fon->GetYaxis()->SetRangeUser(1, 7500);
    mg->Add( fon );
 */
-   TGraph * gr = new TGraph("graph.txt");
-   gr->SetTitle("HPGe MustardGas");
-   gr->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
-   gr->GetYaxis()->SetTitle("Counts / Neutron");
-   gr->GetYaxis()->SetRangeUser(1*std::pow(10, -10), 8.1*std::pow(10, -6));
+   TGraph * gr = new TGraph("graph.txt", "%lg %lg", ",");
+   gr->SetTitle("Cu ^{65}_{29} (n, #gamma)");
+   gr->GetXaxis()->SetTitle("E_{n} (eV)");
+   gr->GetYaxis()->SetTitle("Cross Section b");
+   //gr->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
    //gr->GetYaxis()->SetRangeUser(1, 300);
    gr->Draw("ALL");
    // gr->SetLineColor(kRed);
