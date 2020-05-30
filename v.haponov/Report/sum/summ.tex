@@ -1,0 +1,97 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage{comment}
+
+\usepackage{setspace}
+\usepackage{indentfirst}
+%% Language and font encodings
+\usepackage{extsizes}
+\usepackage[english, russian, ukrainian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\linespread{1.6}
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=2cm,marginparwidth=1.75cm]{geometry}
+
+%\usepackage{fontspec}
+
+%% Useful packages
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{tikz}
+%\usepackage{subfigure}
+\usepackage[lofdepth,lotdepth]{subfig}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{lineno}
+
+%\linenumbers
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+
+\title{}
+
+
+\author[1]{V. Haponov}
+\author[2]{R. Yermolenko}
+\affil[1]{Taras Shevchenko National University of Kiev, Kiev, Ukraine}
+\affil[2]{}
+
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\itshape\normalsize}
+\renewcommand{\arraystretch}{1.5} %% increase table row spacing
+%\renewcommand{\tabcolsep}{1cm}
+
+\date{}
+\begin{document}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TITLE_PAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+
+	
+	%{\renewcommand{\baselinestretch}{1.2}
+	
+	\pagestyle{empty}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SUMMARY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section*{Анотація}
+	
+	{\bf Гапонов В.В.} "Дослідження можливості застосування нейтронно-активаційного аналізу для пошуку корисних копалин в глибинах океану"\\
+	{\itshape Кваліфікаційна робота бакалавра за напрямом підготовки 6.040203 --- Фізика, спеціалізація «Ядерна енергетика». --- Київський національний університет імені Тараса Шевченка, фізичний факультет, кафедра ядерної фізики. --- Київ, 2020.} \\
+	{\itshape \bfseries Науковий керівник:} д. ф.-м. н. Єрмоленко Р.В.%[0.5cm]
+	\\[0.5cm]
+	Сьогодні дуже гостро постає питання нестачі ресурсів, на даний момент, вже вдалося досить точно знаходити та підтверджувати родовища на поверхні. Але, згідно прогнозам, цих родовищ вистачить не на довго, тому було звернено увагу на океани, які до цього часу повністю не вивчені. 
+	Враховуючи умови проведення дослідження, для вирішення поставленої задачі був обраний нейтронно-активаційний аналіз. Ідею для цієї роботи було взято з проекту "SABAT" [Літ. ~\ref{lit:sabat}] - метою якого було створення системи пошуку відходів на дні Балтійського моря. Відповідно роботу можна розбити на такі етапи: вибір мінералів для тестування методу, моделювання геометрії за допомогою коду GEANT4, валідація моделі, аналіз отриманих даних. За основні матеріали для дослідження були обрані $CuFeS_2$, $Ag_3AuS_2$, $^{238}U$. 
+	
+	Для валідація моделі відбувався набір спектру $C_4H_8Cl_2S$.
+	Всі етапи були виконані та також був проаналізований фоновий спектр, для виявлення недоліків та встановлення подальшого плану дій. \\
+	{\bf Ключові слова:} Нейтронно-активаційний аналіз, HPGe, GEANT4, $CuFeS_2$, $Ag_3AuS_2$, $^{238}U$, $C_4H_8Cl_2S$, SABAT
+	
+	\newpage
+	\thispagestyle{empty}
+	\selectlanguage{english}
+	\section*{Summary}
+	
+	{\bf Haponov V.V.} "Researching of the possibility of using neutron activation analysis to search for minerals in the depths of the ocean"\\
+	{\itshape Qualifying work of the bachelor on a speciality 6.040203 --- physics, specialization "Nuclear power". --- Taras Shevchenko National University of Kyiv, Faculty of Physics, Department of Nuclear Physics. --- Kyiv, 2020.\\}
+	{\itshape \bfseries Research supervisor:} Dr. R. Yermolenko.
+	\\[0.5cm]
+	Today, the issue of lack of minerals is very acute, at the moment. The problem of find and confirm deposits on the surface quite has a accurately solution. But according to forecasts, these deposits will not enough for a long time, so attention was paid to the oceans, which are still not fully explored.
+	Pay attention for condition of researching, neutron activation analysis was chosen as solution of this problem. Idea for this work was formed from "SABAT"[Lib. ~\ref{lit:sabat}] - the purpose of which was to create a dangerous waste search system at the bottom of the Baltic Sea. Accordingly, the work can be divided into the following stages: the choice of minerals for testing the method, modeling the geometry using the code GEANT4, model validation, analysis of the data. $ CuFeS_2 $, $ Ag_3AuS_2 $, $ ^ {238} U $ were chosen as the main materials in a work.
+	
+	To validate the model, the spectrum $ C_4H_8Cl_2S $ was set.
+	All stages were completed, and the background spectrum was analyzed to identify shortcomings and establish a further action plan. \\
+	
+	{\bf Key words:} neutron activation analysis, HPGe, GEANT4, $CuFeS_2$, $Ag_3AuS_2$, $^{238}U$, $C_4H_8Cl_2S$, SABAT
+	
+	%content
+	\selectlanguage{ukrainian}
+	\newpage
+	\tableofcontents
+	\newpage
+	\pagestyle{plain}
+	\setcounter{page}{2}
+	\end{document}
