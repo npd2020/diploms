@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.18)  31 MAY 2020 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.18)  31 MAY 2020 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,17 +1262,29 @@ File: res/classDiagram.pdf Graphic file (type pdf)
 <use res/classDiagram.pdf>
 Package pdftex.def Info: res/classDiagram.pdf  used on input line 327.
 (pdftex.def)             Requested size: 455.24411pt x 216.16104pt.
- [10] [11 <./res/classDiagram.pdf>]
+ [10]
+Overfull \hbox (67.61847pt too wide) in paragraph at lines 332--334
+[]\T2A/cmr/m/n/14.4 œÓ‡Ì‡ÎiÁÛ‚‡‚¯Ë i-ÁÌË-ˆ˛ ÏiÊ ‰‚Ó-Ï‡ Ùi-ÁË-˜ÌË-ÏË ÏÓ-‰Â-Îˇ-
+ÏË $\OML/cmm/m/it/14.4 QGSP[]BERT[]HP$
+ []
+
+
+Overfull \hbox (29.6698pt too wide) in paragraph at lines 332--334
+\T2A/cmr/m/n/14.4 Ú‡ $\OML/cmm/m/it/14.4 QGSP[]BERT$\T2A/cmr/m/n/14.4 , ‰Îˇ ÔÓ
+-‚Â-‰Â-Ì-Ìˇ ÏÓ-‰Â-Î˛-‚‡-Ì-Ìˇ, ·Û-Î‡ Ó·‡-Ì‡ $\OML/cmm/m/it/14.4 QGSP[]BERT$
+ []
+
+[11 <./res/classDiagram.pdf>]
 <res/background.pdf, id=261, 569.12625pt x 324.21124pt>
 File: res/background.pdf Graphic file (type pdf)
 <use res/background.pdf>
-Package pdftex.def Info: res/background.pdf  used on input line 355.
+Package pdftex.def Info: res/background.pdf  used on input line 356.
 (pdftex.def)             Requested size: 455.24411pt x 259.34955pt.
-[12]
+ [12]
 <res/smMustFonAll.pdf, id=273, 569.12625pt x 385.44pt>
 File: res/smMustFonAll.pdf Graphic file (type pdf)
 <use res/smMustFonAll.pdf>
-Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 383.
+Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 384.
 (pdftex.def)             Requested size: 455.24411pt x 308.32889pt.
 
 
@@ -1281,24 +1293,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <res/mustard_gas.pdf, id=276, 569.12625pt x 324.21124pt>
 File: res/mustard_gas.pdf Graphic file (type pdf)
 <use res/mustard_gas.pdf>
-Package pdftex.def Info: res/mustard_gas.pdf  used on input line 416.
+Package pdftex.def Info: res/mustard_gas.pdf  used on input line 417.
 (pdftex.def)             Requested size: 455.24411pt x 259.34955pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 421.
+(hyperref)                removing `math shift' on input line 422.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 421.
+(hyperref)                removing `\gamma' on input line 422.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 421.
+(hyperref)                removing `math shift' on input line 422.
 
 <sigma/Au197Sigma.pdf, id=278, 569.12625pt x 329.23pt>
 File: sigma/Au197Sigma.pdf Graphic file (type pdf)
 <use sigma/Au197Sigma.pdf>
-Package pdftex.def Info: sigma/Au197Sigma.pdf  used on input line 425.
+Package pdftex.def Info: sigma/Au197Sigma.pdf  used on input line 426.
 (pdftex.def)             Requested size: 455.24411pt x 263.36426pt.
 [13 <./res/background.pdf, page is rotated 90 degrees>] [14 <./res/smMustFonAll
 .pdf, page is rotated 90 degrees> <./res/mustard_gas.pdf, page is rotated 90 de
@@ -1306,78 +1318,78 @@ grees>] [15 <./sigma/Au197Sigma.pdf, page is rotated 90 degrees>]
 <sigma/Cu65Sigma.pdf, id=474, 569.12625pt x 311.1625pt>
 File: sigma/Cu65Sigma.pdf Graphic file (type pdf)
 <use sigma/Cu65Sigma.pdf>
-Package pdftex.def Info: sigma/Cu65Sigma.pdf  used on input line 463.
+Package pdftex.def Info: sigma/Cu65Sigma.pdf  used on input line 464.
 (pdftex.def)             Requested size: 455.24411pt x 248.91135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--471
+Underfull \hbox (badness 10000) in paragraph at lines 461--472
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 471.
+(hyperref)                removing `math shift' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 471.
+(hyperref)                removing `subscript' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 471.
+(hyperref)                removing `subscript' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 471.
+(hyperref)                removing `math shift' on input line 472.
 
 <res/auFonAllLog.pdf, id=478, 569.12625pt x 347.2975pt>
 File: res/auFonAllLog.pdf Graphic file (type pdf)
 <use res/auFonAllLog.pdf>
-Package pdftex.def Info: res/auFonAllLog.pdf  used on input line 475.
+Package pdftex.def Info: res/auFonAllLog.pdf  used on input line 476.
 (pdftex.def)             Requested size: 455.24411pt x 277.81717pt.
 <res/AgAuSsenst.pdf, id=480, 569.12625pt x 331.2375pt>
 File: res/AgAuSsenst.pdf Graphic file (type pdf)
 <use res/AgAuSsenst.pdf>
-Package pdftex.def Info: res/AgAuSsenst.pdf  used on input line 483.
+Package pdftex.def Info: res/AgAuSsenst.pdf  used on input line 484.
 (pdftex.def)             Requested size: 455.24411pt x 264.97012pt.
 [16] [17 <./sigma/Cu65Sigma.pdf, page is rotated 90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 490.
+(hyperref)                removing `math shift' on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 490.
+(hyperref)                removing `subscript' on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 490.
+(hyperref)                removing `math shift' on input line 491.
 
 <res/smCuFeS2FonAll.pdf, id=540, 569.12625pt x 299.1175pt>
 File: res/smCuFeS2FonAll.pdf Graphic file (type pdf)
 <use res/smCuFeS2FonAll.pdf>
-Package pdftex.def Info: res/smCuFeS2FonAll.pdf  used on input line 494.
+Package pdftex.def Info: res/smCuFeS2FonAll.pdf  used on input line 495.
 (pdftex.def)             Requested size: 455.24411pt x 239.27606pt.
 [18 <./res/auFonAllLog.pdf, page is rotated 90 degrees> <./res/AgAuSsenst.pdf, 
 page is rotated 90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 500.
+(hyperref)                removing `math shift' on input line 501.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 500.
+(hyperref)                removing `superscript' on input line 501.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 500.
+(hyperref)                removing `math shift' on input line 501.
 
 <res/poorUranium.pdf, id=635, 569.12625pt x 333.245pt>
 File: res/poorUranium.pdf Graphic file (type pdf)
 <use res/poorUranium.pdf>
-Package pdftex.def Info: res/poorUranium.pdf  used on input line 504.
+Package pdftex.def Info: res/poorUranium.pdf  used on input line 505.
 (pdftex.def)             Requested size: 455.24411pt x 266.576pt.
 
-Overfull \hbox (29.62727pt too wide) in paragraph at lines 515--529
+Overfull \hbox (29.62727pt too wide) in paragraph at lines 516--530
  [][] 
  []
 
@@ -1387,36 +1399,36 @@ df, page is rotated 90 degrees>] [20] [21]
 File: res/Ag3AuS2_8_5MeVFonClasic.pdf Graphic file (type pdf)
 <use res/Ag3AuS2_8_5MeVFonClasic.pdf>
 Package pdftex.def Info: res/Ag3AuS2_8_5MeVFonClasic.pdf  used on input line 57
-4.
+5.
 (pdftex.def)             Requested size: 455.24411pt x 243.29076pt.
 <res/AuAgS28MeV.pdf, id=741, 569.12625pt x 331.2375pt>
 File: res/AuAgS28MeV.pdf Graphic file (type pdf)
 <use res/AuAgS28MeV.pdf>
-Package pdftex.def Info: res/AuAgS28MeV.pdf  used on input line 580.
+Package pdftex.def Info: res/AuAgS28MeV.pdf  used on input line 581.
 (pdftex.def)             Requested size: 455.24411pt x 264.97012pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 584.
+               Default added (so using `!tbp') on input line 585.
 
 <images/au198levels.png, id=742, 493.845pt x 602.25pt>
 File: images/au198levels.png Graphic file (type png)
 <use images/au198levels.png>
-Package pdftex.def Info: images/au198levels.png  used on input line 586.
+Package pdftex.def Info: images/au198levels.png  used on input line 587.
 (pdftex.def)             Requested size: 455.24411pt x 555.17027pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 590.
+               Default added (so using `!tbp') on input line 591.
 
 <images/cu66lbetadecay.png, id=743, 650.43pt x 602.25pt>
 File: images/cu66lbetadecay.png Graphic file (type png)
 <use images/cu66lbetadecay.png>
-Package pdftex.def Info: images/cu66lbetadecay.png  used on input line 592.
+Package pdftex.def Info: images/cu66lbetadecay.png  used on input line 593.
 (pdftex.def)             Requested size: 455.24411pt x 421.53535pt.
 <res/Au_AnzSpectr.pdf, id=744, 569.12625pt x 325.215pt>
 File: res/Au_AnzSpectr.pdf Graphic file (type pdf)
 <use res/Au_AnzSpectr.pdf>
-Package pdftex.def Info: res/Au_AnzSpectr.pdf  used on input line 598.
+Package pdftex.def Info: res/Au_AnzSpectr.pdf  used on input line 599.
 (pdftex.def)             Requested size: 455.24411pt x 260.1525pt.
 [22 <./res/Ag3AuS2_8_5MeVFonClasic.pdf, page is rotated 90 degrees> <./res/AuAg
 S28MeV.pdf, page is rotated 90 degrees>] [23 <./images/au198levels.png>]
@@ -1428,42 +1440,42 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.614 	\bibitem{1}
+l.615 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.614 	\bibitem{1}
+l.615 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.614 	\bibitem{1}
+l.615 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
  <./res/Au_AnzSpectr.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): de
 stination with the same identifier (name{cite.1}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.614 	\bibitem{1}
+l.615 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.616 	\bibitem{1}
+l.617 	\bibitem{1}
                    \textit{–û–º–µ–ª—å—á—É–∫ –û.–í., –ó–∞–≥–Ω—ñ—Ç–∫–æ –í.–ú.,...
 
-Underfull \hbox (badness 1377) in paragraph at lines 616--617
+Underfull \hbox (badness 1377) in paragraph at lines 617--618
 \T2A/cmr/m/n/14.4 ¬Iƒ- ¿ –Œ-ƒŒ-¬»Ÿ  Œ-–»-—Õ»’  Œ-œ¿-À»Õ  »-à¬-—‹ »… Õ¿-
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 616--617
+Underfull \hbox (badness 5622) in paragraph at lines 617--618
 \T2A/cmr/m/n/14.4 ÷IŒ-Õ¿À‹-Õ»… ”ÕI-¬≈–-—»-“≈“ IÃ≈-ÕI “¿-–¿-—¿ ÿ≈¬-◊≈Õ- ¿
  []
 
@@ -1471,40 +1483,40 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.617 	\bibitem{1}
+l.618 	\bibitem{1}
                    \textit{Experimental Nuclear Reaction Data}pdfTeX warning (e
 xt4): destination with the same identifier (name{cite.1}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.618 	\bibitem{1}
+l.619 	\bibitem{1}
                    \textit{O. A. Wasson, R. E. Chrien, M. R. Bhat, M. A. Lon...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.619 	\bibitem{1}
+l.620 	\bibitem{1}
                    \textit{	I.A.Kondurov, A.I.Egorov, M.Kaminker, E.M.Korotk...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.620 	\bibitem{1}
+l.621 	\bibitem{1}
                    \textit{ Geant4 Collaboration } Book For Application Deve...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.622 	\bibitem{1}
+l.623 	\bibitem{1}
                    \textit{ Alexander Howard, Gunter Folger, Jose Manuel Que...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.623 	\bibitem{1}
+l.624 	\bibitem{1}
                    \textit{H¬¥ector Ren¬¥e, Vega-Carrillo Celia, Torres-Muhe...
 
-Underfull \hbox (badness 3724) in paragraph at lines 623--624
+Underfull \hbox (badness 3724) in paragraph at lines 624--625
 []\T2A/cmr/m/it/14.4 H^^Aector Ren^^Ae, Vega-Carrillo Celia, Torres-Muhech, Uni
 -versi-dad
  []
@@ -1513,21 +1525,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.624 	\bibitem{1}
-                   \textit{–ü–æ—Å–∏–ª–∞–Ω–Ω—è –Ω–∞ —É–∫—Ä–∞—ó–Ω—Å—å–∫—É –∞—Å...
+l.625 	\bibitem{1}
+                   \textit{Donella H. Meadows,	Dennis L. Meadows, Jrgen Rand...
 [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 630.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 829B7CD53BFDE524DBE16E920124FEB6;4178.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 628.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 630.
  ) 
 Here is how much of TeX's memory you used:
  25997 strings out of 481239
@@ -1536,7 +1548,7 @@ Here is how much of TeX's memory you used:
  40678 multiletter control sequences out of 15000+600000
  553756 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,102p,1465b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,102p,1469b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf/fonts/enc/dvips/cm
 -super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
@@ -1552,10 +1564,10 @@ x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report.pdf (30 pages, 1169525 bytes).
+Output written on report.pdf (30 pages, 1169182 bytes).
 PDF statistics:
- 977 PDF objects out of 1000 (max. 8388607)
- 581 compressed objects within 6 object streams
+ 976 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
  80 named destinations out of 1000 (max. 500000)
  377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
