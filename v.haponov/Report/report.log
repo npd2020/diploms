@@ -1,74 +1,74 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.18)  31 MAY 2020 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.5)  9 JUN 2020 22:22
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**report.tex
-(./report.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**./report.tex
+(report.tex
+LaTeX2e <2018-04-01> patch level 5
+(D:\install\texstudio\miktex\2018\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(D:\install\texstudio\miktex\2018\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+(D:\install\texstudio\miktex\2018\tex\latex\comment\comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(D:\install\texstudio\miktex\2018\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+(D:\install\texstudio\miktex\2018\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/extsizes.sty
+(D:\install\texstudio\miktex\2018\tex\latex\extsizes\extsizes.sty
 Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 
 
 Package ExtSizes Warning: It is better to use one of the extsizes classes,
  if you can.
 
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+(D:\install\texstudio\miktex\2018\tex\latex\extsizes\size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/02/14 3.40 The Babel package
+(D:\install\texstudio\miktex\2018\tex\generic\babel\babel.sty
+Package: babel 2018/06/05 3.22 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/02/14 3.40 Babel switching mechanism
+(D:\install\texstudio\miktex\2018\tex\generic\babel\switch.def
+File: switch.def 2018/06/05 3.22 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\install\texstudio\miktex\2018\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\install\texstudio\miktex\2018\tex\latex\babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count175
-\U@D=\dimen135
+(D:\install\texstudio\miktex\2018\tex\generic\babel\babel.def
+File: babel.def 2018/06/05 3.22 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count176
+(D:\install\texstudio\miktex\2018\tex\generic\babel\txtbabel.def)
+\bbl@dirlevel=\count89
 )
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language51) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language51) on input line 108.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+(D:\install\texstudio\miktex\2018\tex\latex\babel-russian\russianb.ldf
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
 
 
@@ -77,19 +77,18 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                Default `T2A' encoding will be loaded  on input line 74.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+(D:\install\texstudio\miktex\2018\tex\latex\cyrillic\t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
-File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+(D:\install\texstudio\miktex\2018\tex\latex\base\t2aenc.dfu
+File: t2aenc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0237 (decimal 567)
    defining Unicode char U+0400 (decimal 1024)
    defining Unicode char U+0401 (decimal 1025)
    defining Unicode char U+0402 (decimal 1026)
@@ -271,20 +270,11 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
 ))
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
+(D:\install\texstudio\miktex\2018\tex\latex\babel-ukrainian\ukraineb.ldf
 Language: ukraineb 2018/04/11 1.4c Ukrainian support for the Babel system
 LaTeX Info: Redefining \cyrillictext on input line 84.
 LaTeX Info: Redefining \textcyrillic on input line 96.
@@ -294,162 +284,171 @@ Package babel Warning: No input encoding specified for Ukrainian language on in
 put line 117.
 
 Package babel Info: Default for \cyrdash is provided on input line 161.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+)) (D:\install\texstudio\miktex\2018\tex\latex\base\inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count177
+\uc@secondtry=\count90
 \uc@combtoks=\toks16
 \uc@combtoksb=\toks17
 \uc@temptokena=\toks18
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(D:\install\texstudio\miktex\2018\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(D:\install\texstudio\miktex\2018\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(D:\install\texstudio\miktex\2018\tex\latex\geometry\geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(D:\install\texstudio\miktex\2018\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-\Gm@cnth=\count178
-\Gm@cntv=\count179
-\c@Gm@tempcnt=\count180
-\Gm@bindingoffset=\dimen136
-\Gm@wd@mp=\dimen137
-\Gm@odd@mp=\dimen138
-\Gm@even@mp=\dimen139
-\Gm@layoutwidth=\dimen140
-\Gm@layoutheight=\dimen141
-\Gm@layouthoffset=\dimen142
-\Gm@layoutvoffset=\dimen143
+(D:\install\texstudio\miktex\2018\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(D:\install\texstudio\miktex\2018\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(D:\install\texstudio\miktex\2018\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
 \Gm@dimlist=\toks20
-)
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+
+(D:\install\texstudio\miktex\2018\tex\latex\geometry\geometry.cfg))
+(D:\install\texstudio\miktex\2018\tex\latex\preprint\authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip49
-\@affilsep=\skip50
-\c@Maxaffil=\count181
-\c@authors=\count182
-\c@affil=\count183
+\affilsep=\skip43
+\@affilsep=\skip44
+\c@Maxaffil=\count94
+\c@authors=\count95
+\c@affil=\count96
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip51
+(D:\install\texstudio\miktex\2018\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(D:\install\texstudio\miktex\2018\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(D:\install\texstudio\miktex\2018\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen144
+\ex@=\dimen112
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(D:\install\texstudio\miktex\2018\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen145
+\pmbraise@=\dimen113
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(D:\install\texstudio\miktex\2018\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count184
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count185
-\leftroot@=\count186
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count187
-\DOTSCASE@=\count188
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
-\big@size=\dimen146
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count189
-\c@MaxMatrixCols=\count190
-\dotsspace@=\muskip16
-\c@parentequation=\count191
-\dspbrk@lvl=\count192
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
 \tag@help=\toks22
-\row@=\count193
-\column@=\count194
-\maxfields@=\count195
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
 \andhelp@=\toks23
-\eqnshift@=\dimen147
-\alignsep@=\dimen148
-\tagshift@=\dimen149
-\tagwidth@=\dimen150
-\totwidth@=\dimen151
-\lineht@=\dimen152
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
 \@envbody=\toks24
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip46
+\multlinetaggap=\skip47
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(D:\install\texstudio\miktex\2018\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(D:\install\texstudio\miktex\2018\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(D:\install\texstudio\miktex\2018\tex\latex\graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(D:\install\texstudio\miktex\2018\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+(D:\install\texstudio\miktex\2018\tex\latex\graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+(D:\install\texstudio\miktex\2018\tex\latex\todonotes\todonotes.sty
 Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
 Package: todonotes 2018/11/22
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(D:\install\texstudio\miktex\2018\tex\latex\base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(D:\install\texstudio\miktex\2018\tex\latex\xkeyval\xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(D:\install\texstudio\miktex\2018\tex\generic\xkeyval\xkeyval.tex
+(D:\install\texstudio\miktex\2018\tex\generic\xkeyval\xkvutils.tex
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count196
+\XKV@depth=\count109
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(D:\install\texstudio\miktex\2018\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(D:\install\texstudio\miktex\2018\tex\latex\graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -463,514 +462,497 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\frontendlayer\tikz.sty
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\basiclayer\pgf.sty
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\utilities\pgfrcs.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+\pgfutil@tempdima=\dimen123
+\pgfutil@tempdimb=\dimen124
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box47
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfutil-common-list
+s.tex))
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(D:\install\texstudio\miktex\2018\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\basiclayer\pgfcore.sty
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\systemlayer\pgfsys.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfkeysfiltered.cod
+e.tex
 \pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
-\pgf@xd=\dimen165
-\pgf@yd=\dimen166
+\pgf@x=\dimen125
+\pgf@y=\dimen126
+\pgf@xa=\dimen127
+\pgf@ya=\dimen128
+\pgf@xb=\dimen129
+\pgf@yb=\dimen130
+\pgf@xc=\dimen131
+\pgf@yc=\dimen132
 \w@pgf@writea=\write4
-\r@pgf@reada=\read3
-\c@pgf@counta=\count197
-\c@pgf@countb=\count198
-\c@pgf@countc=\count199
-\c@pgf@countd=\count266
+\r@pgf@reada=\read1
+\c@pgf@counta=\count110
+\c@pgf@countb=\count111
+\c@pgf@countc=\count112
+\c@pgf@countd=\count113
 \t@pgf@toka=\toks32
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count267
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+ (D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgfsys-common-pdf
+.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count268
-\pgfsyssoftpath@bigbuffer@items=\count269
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgfsyssoftpath.co
+de.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count114
+\pgfsyssoftpath@bigbuffer@items=\count115
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
-File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\systemlayer\pgfsysprotocol.co
+de.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count270
-\pgfmath@box=\box48
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmath.code.tex
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathcalc.code.tex
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathutil.code.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen133
+\pgfmath@count=\count116
+\pgfmath@box=\box29
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
 \pgfmath@stack@operation=\toks37
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count271
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.code.te
 x
-File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
-File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.basic.c
+ode.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.trigono
+metric.code.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.random.
+code.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.compari
+son.code.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.base.co
+de.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.round.c
+ode.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.misc.co
+de.tex)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfunctions.integer
+arithmetics.code.tex)))
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count117
+))
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorepoints.code
 .tex
-File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen134
+\pgf@picmaxx=\dimen135
+\pgf@picminy=\dimen136
+\pgf@picmaxy=\dimen137
+\pgf@pathminx=\dimen138
+\pgf@pathmaxx=\dimen139
+\pgf@pathminy=\dimen140
+\pgf@pathmaxy=\dimen141
+\pgf@xx=\dimen142
+\pgf@xy=\dimen143
+\pgf@yx=\dimen144
+\pgf@yy=\dimen145
+\pgf@zx=\dimen146
+\pgf@zy=\dimen147
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count272
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorepathconstru
+ct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen148
+\pgf@path@lasty=\dimen149
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorepathusage.c
 ode.tex
-File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen186
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen150
+\pgf@shorten@start@additional=\dimen151
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorescopes.code
+.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count118
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoregraphicstat
+e.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
-File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoretransformat
+ions.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen153
+\pgf@pt@y=\dimen154
+\pgf@pt@temp=\dimen155
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
-File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen190
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count273
-\pgf@shadingcount=\count274
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorequick.code.
 tex
-File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box52
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoreobjects.cod
+e.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorepathprocess
+ing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorearrows.code
+.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen156
+)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoreshade.code.
+tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen157
+\pgf@sys@shading@range@num=\count119
+)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoreimage.code.
+tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoreexternal.co
+de.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box33
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
-File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorelayers.code
+.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
-File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcoretransparenc
+y.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
-File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\basiclayer\pgfcorepatterns.co
+de.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box53
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\modules\pgfmoduleshapes.code.
+tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box34
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\modules\pgfmoduleplot.code.te
+x
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\compatibility\pgfcomp-version-0
+-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen158
+\pgf@nodesepend=\dimen159
+)
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\compatibility\pgfcomp-version-1
+-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (D:\install\texstudio\miktex\2018\tex\latex\pgf\utilities\pgffor.sty
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\utilities\pgfkeys.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(D:\install\texstudio\miktex\2018\tex\latex\pgf\math\pgfmath.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmath.code.tex))
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\math\pgfmath.code.tex)
+\pgffor@iter=\dimen160
+\pgffor@skip=\dimen161
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\frontendlayer\tikz\tikz.code.
+tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count275
-\pgfplotmarksize=\dimen196
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\libraries\pgflibraryplothandl
+ers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count120
+\pgfplotmarksize=\dimen162
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-\tikz@lastysaved=\dimen256
-\tikz@lastmovetox=\dimen257
-\tikz@lastmovetoy=\dimen258
-\tikzleveldistance=\dimen259
-\tikzsiblingdistance=\dimen260
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count276
-\tikznumberofchildren=\count277
-\tikznumberofcurrentchild=\count278
-\tikz@fig@count=\count279
+\tikz@lastx=\dimen163
+\tikz@lasty=\dimen164
+\tikz@lastxsaved=\dimen165
+\tikz@lastysaved=\dimen166
+\tikzleveldistance=\dimen167
+\tikzsiblingdistance=\dimen168
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count121
+\tikznumberofchildren=\count122
+\tikznumberofcurrentchild=\count123
+\tikz@fig@count=\count124
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count280
-\pgfmatrixcurrentcolumn=\count281
-\pgf@matrix@numberofcolumns=\count282
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\modules\pgfmodulematrix.code.
+tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count125
+\pgfmatrixcurrentcolumn=\count126
+\pgf@matrix@numberofcolumns=\count127
 )
-\tikz@expandcount=\count283
+\tikz@expandcount=\count128
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshadows.code.tex
-File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfadings.code.tex
-File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
-.tex
-File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+(D:\install\texstudio\miktex\2018\tex\generic\pgf\libraries\pgflibraryfadings.c
+ode.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+))) (D:\install\texstudio\miktex\2018\tex\latex\tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count284
-\calc@Bcount=\count285
-\calc@Adimen=\dimen261
-\calc@Bdimen=\dimen262
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
+\calc@Acount=\count129
+\calc@Bcount=\count130
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count286
-\calc@Cskip=\skip56
+\calc@Ccount=\count131
+\calc@Cskip=\skip50
 )
-\c@@todonotes@numberoftodonotes=\count287
+\c@@todonotes@numberoftodonotes=\count132
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+(D:\install\texstudio\miktex\2018\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+(D:\install\texstudio\miktex\2018\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+
+(D:\install\texstudio\miktex\2018\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(D:\install\texstudio\miktex\2018\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+(D:\install\texstudio\miktex\2018\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen263
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
+\@linkdim=\dimen171
+\Hy@linkcounter=\count133
+\Hy@pagecounter=\count134
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+(D:\install\texstudio\miktex\2018\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count290
-\pdfmajorversion=\count291
-Package hyperref Info: Option `unicode' set `true' on input line 3502.
+\Hy@SavedSpaceFactor=\count135
+Package hyperref Info: Option `unicode' set `true' on input line 3456.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+(D:\install\texstudio\miktex\2018\tex\latex\hyperref\puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+(D:\install\texstudio\miktex\2018\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count292
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count136
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+(D:\install\texstudio\miktex\2018\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen264
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count293
-\Field@Width=\dimen265
-\Fld@charsize=\dimen266
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring ON on input line 6448.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
-
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-)
-\Hy@abspage=\count294
-\c@Item=\count295
-\c@Hfootnote=\count296
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen172
+\Fld@menulength=\count137
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count138
+\c@Item=\count139
+\c@Hfootnote=\count140
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+(D:\install\texstudio\miktex\2018\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count141
+\c@bookmark@seq@number=\count142
 
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-)
-\Fld@listcount=\count297
-\c@bookmark@seq@number=\count298
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
+(D:\install\texstudio\miktex\2018\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+82.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip51
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+(D:\install\texstudio\miktex\2018\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(D:\install\texstudio\miktex\2018\tex\latex\caption\caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(D:\install\texstudio\miktex\2018\tex\latex\caption\caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen267
-\captionmargin@=\dimen268
-\captionwidth=\dimen269
-\caption@tempdima=\dimen270
-\caption@indent=\dimen271
-\caption@parindent=\dimen272
-\caption@hangindent=\dimen273
+\captionmargin=\dimen175
+\captionmargin@=\dimen176
+\captionwidth=\dimen177
+\caption@tempdima=\dimen178
+\caption@indent=\dimen179
+\caption@parindent=\dimen180
+\caption@hangindent=\dimen181
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count299
-\c@continuedfloat=\count300
+\c@caption@flags=\count143
+\c@continuedfloat=\count144
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count301
-\sf@farskip=\skip58
-\sf@captopadj=\dimen274
-\sf@capskip=\skip59
-\sf@nearskip=\skip60
-\c@subfigure=\count302
-\c@subfigure@save=\count303
-\c@lofdepth=\count304
-\c@subtable=\count305
-\c@subtable@save=\count306
-\c@lotdepth=\count307
-\sf@top=\skip61
-\sf@bottom=\skip62
+\c@KVtest=\count145
+\sf@farskip=\skip52
+\sf@captopadj=\dimen182
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count146
+\c@subfigure@save=\count147
+\c@lofdepth=\count148
+\c@subtable=\count149
+\c@subtable@save=\count150
+\c@lotdepth=\count151
+\sf@top=\skip55
+\sf@bottom=\skip56
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(D:\install\texstudio\miktex\2018\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count308
+\c@float@type=\count152
 \float@exts=\toks40
-\float@box=\box58
+\float@box=\box39
 \@float@everytoks=\toks41
-\@floatcapt=\box59
+\@floatcapt=\box40
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip63
-\multirow@cntb=\count309
-\multirow@dima=\skip64
-\bigstrutjot=\dimen275
+(D:\install\texstudio\miktex\2018\tex\latex\multirow\multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count153
+\multirow@dima=\skip58
+\bigstrutjot=\dimen183
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+(D:\install\texstudio\miktex\2018\tex\latex\tools\hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+(D:\install\texstudio\miktex\2018\tex\latex\lineno\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count310
+\linenopenalty=\count154
 \output=\toks42
-\linenoprevgraf=\count311
-\linenumbersep=\dimen276
-\linenumberwidth=\dimen277
-\c@linenumber=\count312
-\c@pagewiselinenumber=\count313
-\c@LN@truepage=\count314
-\c@internallinenumber=\count315
-\c@internallinenumbers=\count316
-\quotelinenumbersep=\dimen278
-\bframerule=\dimen279
-\bframesep=\dimen280
-\bframebox=\box60
+\linenoprevgraf=\count155
+\linenumbersep=\dimen184
+\linenumberwidth=\dimen185
+\c@linenumber=\count156
+\c@pagewiselinenumber=\count157
+\c@LN@truepage=\count158
+\c@internallinenumber=\count159
+\c@internallinenumbers=\count160
+\quotelinenumbersep=\dimen186
+\bframerule=\dimen187
+\bframesep=\dimen188
+\bframebox=\box41
 LaTeX Info: Redefining \\ on input line 3056.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count317
-\l__pdf_internal_box=\box61
-)
-(./report.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-1.
- (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+) (report.aux
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
+
+(D:\install\texstudio\miktex\2018\tex\latex\cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
@@ -1014,13 +996,11 @@ LaTeX Warning: Label `1' multiply defined.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -1032,7 +1012,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
- (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+ (D:\install\texstudio\miktex\2018\tex\latex\ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 *geometry* driver: auto-detecting
@@ -1069,28 +1049,32 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(D:\install\texstudio\miktex\2018\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen281
-\scratchbox=\box62
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\scratchcounter=\count161
+\scratchdimen=\dimen189
+\scratchbox=\box42
+\nofMPsegments=\count162
+\nofMParguments=\count163
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen282
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen190
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
 \everyMPtoPDFconversion=\toks44
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+) (D:\install\texstudio\miktex\2018\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+(D:\install\texstudio\miktex\2018\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
@@ -1098,24 +1082,21 @@ most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
 loading the todonotes package. on input line 51.
 
-\AtBeginShipoutBox=\box63
+\AtBeginShipoutBox=\box43
 Package hyperref Info: Link coloring ON on input line 51.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(D:\install\texstudio\miktex\2018\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+(D:\install\texstudio\miktex\2018\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count324
+\c@section@level=\count167
 )
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
 
-(./report.out) (./report.out)
+(report.out) (report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
@@ -1124,7 +1105,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
@@ -1136,11 +1117,20 @@ Overfull \hbox (14.22635pt too wide) in paragraph at lines 81--85
   $[]$
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\uni-33.def
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-) [1
+)
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 95.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (52.6741pt too wide) in paragraph at lines 107--109
 \T2A/cmr/m/n/14.4 ÒÚË‚ Í‚‡-Îi-Ùi-Í‡-ˆiÈ-ÌÛ Ó-·Ó-ÚÛ ·‡-Í‡-Î‡‚-‡ Á ÓˆiÌ-ÍÓ˛ []
  []
@@ -1150,13 +1140,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 113.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.113 \end{titlepage}
                       [1]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 Overfull \hbox (7.28302pt too wide) in paragraph at lines 121--127
@@ -1170,16 +1168,46 @@ Overfull \hbox (25.3195pt too wide) in paragraph at lines 128--131
 -ÎiÁ, HPGe, GEANT4, $\OML/cmm/m/it/14.4 CuFeS[]$\T2A/cmr/m/n/14.4 ,
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 132.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.132 \newpage
-               [1] [2] (./report.toc)
+               [1]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 156.
+ [2] (report.toc)
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 158.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 158.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 158.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 158.
  [3]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 164.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 164.
+
 Overfull \hbox (5.4695pt too wide) in paragraph at lines 166--167
 []\T2A/cmr/m/n/14.4 « ÓÁ-‚Ë-ÚÍÓÏ ÚÂ-ıÌÓ-ÎÓ-„iÈ Ú‡ ÔÓ-ÏË-ÒÎÓ-‚Ó-ÒÚi, Á‡-·Û-‰Ì
 Â-Ì-ÌˇÏ Ì‡‚-ÍÓ-ÎË-¯Ì¸Ó-
@@ -1191,12 +1219,29 @@ Overfull \hbox (1.2085pt too wide) in paragraph at lines 173--174
 ati-on Techni-
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 176.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 176.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 176.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.176 \newpage
                [2]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 179.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 179.
@@ -1205,83 +1250,201 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 179.
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
+
+(D:\install\texstudio\miktex\2018\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
 
 Overfull \hbox (33.84358pt too wide) in paragraph at lines 193--194
 \T2A/cmr/m/n/14.4  ÓÊÂÌ Á ÍÎ‡-Òi‚ Ì‡-ÒÎi-‰Û-π-Ú¸Òˇ ‚i‰ ·‡-ÁÓ-‚Ó-„Ó ÍÎ‡-ÒÛ Ùi-ÁË
 -˜ÌÓ® G4PhysicsConsturctor.
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 197.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 197.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.197 	\item G
               4HadronElasticPhysicsHP [3]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 204.
+
 Overfull \hbox (7.31044pt too wide) in paragraph at lines 205--206
 []\T2A/cmr/m/n/14.4 Geant4 - Ì‡-ÔË-Ò‡-ÌËÈ Ì‡ Ó·'πÍÚÌÓ-ÓiπÌÚÓ‚‡ÌiÈ ÏÓ-‚i ÔÓ-„
 ‡-ÏÛ-‚‡-Ì-Ìˇ —++,
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 210.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 210.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 210.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 210.
 [4]
-<images/239-PuBe-neutron-source-spectrum.png, id=195, 631.35875pt x 506.89375pt
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 211.
+<images/239-PuBe-neutron-source-spectrum.png, id=192, 631.35875pt x 506.89375pt
 >
 File: images/239-PuBe-neutron-source-spectrum.png Graphic file (type png)
 <use images/239-PuBe-neutron-source-spectrum.png>
 Package pdftex.def Info: images/239-PuBe-neutron-source-spectrum.png  used on i
 nput line 216.
 (pdftex.def)             Requested size: 318.66948pt x 255.8517pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 221.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 221.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 221.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 221.
  [5 <./images/239-PuBe-neutron-source-spectrum.png>]
-<images/sabatGeometry.png, id=205, 340.27126pt x 340.27126pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 225.
+<images/sabatGeometry.png, id=202, 340.27126pt x 340.27126pt>
 File: images/sabatGeometry.png Graphic file (type png)
 <use images/sabatGeometry.png>
 Package pdftex.def Info: images/sabatGeometry.png  used on input line 229.
 (pdftex.def)             Requested size: 318.66948pt x 318.68678pt.
-<images/geometryAll.png, id=209, 497.86pt x 497.86pt>
+<images/geometryAll.png, id=206, 497.86pt x 497.86pt>
 File: images/geometryAll.png Graphic file (type png)
 <use images/geometryAll.png>
 Package pdftex.def Info: images/geometryAll.png  used on input line 237.
 (pdftex.def)             Requested size: 273.14923pt x 273.15533pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 242.
  [6]
 
 LaTeX Warning: Text page 7 contains only floats.
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 242.
 [7 <./images/sabatGeometry.png> <./images/geometryAll.png>]
-<images/sDetector158cm3.png, id=224, 256.96pt x 256.96pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 243.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 243.
+<images/sDetector158cm3.png, id=221, 256.96pt x 256.96pt>
 File: images/sDetector158cm3.png Graphic file (type png)
 <use images/sDetector158cm3.png>
 Package pdftex.def Info: images/sDetector158cm3.png  used on input line 247.
 (pdftex.def)             Requested size: 364.19667pt x 364.22704pt.
-<images/dectorPrt.png, id=226, 477.785pt x 476.78125pt>
+<images/dectorPrt.png, id=223, 477.785pt x 476.78125pt>
 File: images/dectorPrt.png Graphic file (type png)
 <use images/dectorPrt.png>
 Package pdftex.def Info: images/dectorPrt.png  used on input line 257.
 (pdftex.def)             Requested size: 318.66948pt x 318.0013pt.
- [8 <./images/sDetector158cm3.png>] [9 <./images/dectorPrt.png>]
-<res/classDiagram.pdf, id=244, 1395.2125pt x 662.475pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 262.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 262.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 262.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 262.
+ [8 <./images/sDetector158cm3.png>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 270.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 270.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 292.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 292.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 292.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 292.
+ [9 <./images/dectorPrt.png>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 322.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 322.
+<res/classDiagram.pdf, id=241, 1395.2125pt x 662.475pt>
 File: res/classDiagram.pdf Graphic file (type pdf)
 <use res/classDiagram.pdf>
 Package pdftex.def Info: res/classDiagram.pdf  used on input line 327.
 (pdftex.def)             Requested size: 455.24411pt x 216.16104pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 331.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 331.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 331.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 331.
  [10]
-Overfull \hbox (67.61847pt too wide) in paragraph at lines 332--334
-[]\T2A/cmr/m/n/14.4 œÓ‡Ì‡ÎiÁÛ‚‡‚¯Ë i-ÁÌË-ˆ˛ ÏiÊ ‰‚Ó-Ï‡ Ùi-ÁË-˜ÌË-ÏË ÏÓ-‰Â-Îˇ-
-ÏË $\OML/cmm/m/it/14.4 QGSP[]BERT[]HP$
- []
-
-
-Overfull \hbox (29.6698pt too wide) in paragraph at lines 332--334
-\T2A/cmr/m/n/14.4 Ú‡ $\OML/cmm/m/it/14.4 QGSP[]BERT$\T2A/cmr/m/n/14.4 , ‰Îˇ ÔÓ
--‚Â-‰Â-Ì-Ìˇ ÏÓ-‰Â-Î˛-‚‡-Ì-Ìˇ, ·Û-Î‡ Ó·‡-Ì‡ $\OML/cmm/m/it/14.4 QGSP[]BERT$
- []
-
-[11 <./res/classDiagram.pdf>]
-<res/background.pdf, id=261, 569.12625pt x 324.21124pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 334.
+ [11 <./res/classDiagram.pdf>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 335.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 335.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 337.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 337.
+<res/background.pdf, id=258, 569.12625pt x 324.21124pt>
 File: res/background.pdf Graphic file (type pdf)
 <use res/background.pdf>
 Package pdftex.def Info: res/background.pdf  used on input line 356.
 (pdftex.def)             Requested size: 455.24411pt x 259.34955pt.
- [12]
-<res/smMustFonAll.pdf, id=273, 569.12625pt x 385.44pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 378.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 378.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 378.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 378.
+[12]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 379.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 379.
+<res/smMustFonAll.pdf, id=270, 569.12625pt x 385.44pt>
 File: res/smMustFonAll.pdf Graphic file (type pdf)
 <use res/smMustFonAll.pdf>
 Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 384.
@@ -1290,11 +1453,15 @@ Package pdftex.def Info: res/smMustFonAll.pdf  used on input line 384.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<res/mustard_gas.pdf, id=276, 569.12625pt x 324.21124pt>
+<res/mustard_gas.pdf, id=273, 569.12625pt x 324.21124pt>
 File: res/mustard_gas.pdf Graphic file (type pdf)
 <use res/mustard_gas.pdf>
 Package pdftex.def Info: res/mustard_gas.pdf  used on input line 417.
 (pdftex.def)             Requested size: 455.24411pt x 259.34955pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 422.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 422.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 422.
@@ -1307,15 +1474,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 422.
 
-<sigma/Au197Sigma.pdf, id=278, 569.12625pt x 329.23pt>
+<sigma/Au197Sigma.pdf, id=275, 569.12625pt x 329.23pt>
 File: sigma/Au197Sigma.pdf Graphic file (type pdf)
 <use sigma/Au197Sigma.pdf>
 Package pdftex.def Info: sigma/Au197Sigma.pdf  used on input line 426.
 (pdftex.def)             Requested size: 455.24411pt x 263.36426pt.
-[13 <./res/background.pdf, page is rotated 90 degrees>] [14 <./res/smMustFonAll
-.pdf, page is rotated 90 degrees> <./res/mustard_gas.pdf, page is rotated 90 de
-grees>] [15 <./sigma/Au197Sigma.pdf, page is rotated 90 degrees>]
-<sigma/Cu65Sigma.pdf, id=474, 569.12625pt x 311.1625pt>
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 430.
+[13 <./res/background.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 430.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 430.
+ [14 <./res/smMustFonAll.pdf, page is rotated 90 degrees> <./res/mustard_gas.pd
+f, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 432.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 432.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 432.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 432.
+ [15 <./sigma/Au197Sigma.pdf, page is rotated 90 degrees>]
+<sigma/Cu65Sigma.pdf, id=470, 569.12625pt x 311.1625pt>
 File: sigma/Cu65Sigma.pdf Graphic file (type pdf)
 <use sigma/Cu65Sigma.pdf>
 Package pdftex.def Info: sigma/Cu65Sigma.pdf  used on input line 464.
@@ -1325,6 +1517,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--472
 
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 472.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 472.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 472.
@@ -1341,17 +1537,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 472.
 
-<res/auFonAllLog.pdf, id=478, 569.12625pt x 347.2975pt>
+<res/auFonAllLog.pdf, id=474, 569.12625pt x 347.2975pt>
 File: res/auFonAllLog.pdf Graphic file (type pdf)
 <use res/auFonAllLog.pdf>
 Package pdftex.def Info: res/auFonAllLog.pdf  used on input line 476.
 (pdftex.def)             Requested size: 455.24411pt x 277.81717pt.
-<res/AgAuSsenst.pdf, id=480, 569.12625pt x 331.2375pt>
+<res/AgAuSsenst.pdf, id=476, 569.12625pt x 331.2375pt>
 File: res/AgAuSsenst.pdf Graphic file (type pdf)
 <use res/AgAuSsenst.pdf>
 Package pdftex.def Info: res/AgAuSsenst.pdf  used on input line 484.
 (pdftex.def)             Requested size: 455.24411pt x 264.97012pt.
-[16] [17 <./sigma/Cu65Sigma.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 488.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 488.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 488.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 488.
+[16]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 490.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 490.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 490.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 490.
+ [17 <./sigma/Cu65Sigma.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 491.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 491.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 491.
@@ -1364,13 +1582,26 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 491.
 
-<res/smCuFeS2FonAll.pdf, id=540, 569.12625pt x 299.1175pt>
+<res/smCuFeS2FonAll.pdf, id=536, 569.12625pt x 299.1175pt>
 File: res/smCuFeS2FonAll.pdf Graphic file (type pdf)
 <use res/smCuFeS2FonAll.pdf>
 Package pdftex.def Info: res/smCuFeS2FonAll.pdf  used on input line 495.
 (pdftex.def)             Requested size: 455.24411pt x 239.27606pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 500.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 500.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 500.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 500.
 [18 <./res/auFonAllLog.pdf, page is rotated 90 degrees> <./res/AgAuSsenst.pdf, 
 page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 501.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 501.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 501.
@@ -1383,99 +1614,177 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 501.
 
-<res/poorUranium.pdf, id=635, 569.12625pt x 333.245pt>
+<res/poorUranium.pdf, id=630, 569.12625pt x 333.245pt>
 File: res/poorUranium.pdf Graphic file (type pdf)
 <use res/poorUranium.pdf>
 Package pdftex.def Info: res/poorUranium.pdf  used on input line 505.
 (pdftex.def)             Requested size: 455.24411pt x 266.576pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 509.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 509.
 
-Overfull \hbox (29.62727pt too wide) in paragraph at lines 516--530
+Overfull \hbox (29.62717pt too wide) in paragraph at lines 516--530
  [][] 
  []
 
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 531.
 [19 <./res/smCuFeS2FonAll.pdf, page is rotated 90 degrees> <./res/poorUranium.p
-df, page is rotated 90 degrees>] [20] [21]
-<res/Ag3AuS2_8_5MeVFonClasic.pdf, id=740, 569.12625pt x 304.13625pt>
+df, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 533.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 533.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 533.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 533.
+ [20]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 534.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 534.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 551.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 551.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 551.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 551.
+ [21]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 552.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 552.
+<res/Ag3AuS2_8_5MeVFonClasic.pdf, id=732, 569.12625pt x 304.13625pt>
 File: res/Ag3AuS2_8_5MeVFonClasic.pdf Graphic file (type pdf)
 <use res/Ag3AuS2_8_5MeVFonClasic.pdf>
-Package pdftex.def Info: res/Ag3AuS2_8_5MeVFonClasic.pdf  used on input line 57
-5.
+Package pdftex.def Info: res/Ag3AuS2_8_5MeVFonClasic.pdf  used on input line 55
+6.
 (pdftex.def)             Requested size: 455.24411pt x 243.29076pt.
-<res/AuAgS28MeV.pdf, id=741, 569.12625pt x 331.2375pt>
+<res/AuAgS28MeV.pdf, id=733, 569.12625pt x 331.2375pt>
 File: res/AuAgS28MeV.pdf Graphic file (type pdf)
 <use res/AuAgS28MeV.pdf>
-Package pdftex.def Info: res/AuAgS28MeV.pdf  used on input line 581.
+Package pdftex.def Info: res/AuAgS28MeV.pdf  used on input line 562.
 (pdftex.def)             Requested size: 455.24411pt x 264.97012pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 585.
+               Default added (so using `!tbp') on input line 566.
 
-<images/au198levels.png, id=742, 493.845pt x 602.25pt>
+<images/au198levels.png, id=734, 493.845pt x 602.25pt>
 File: images/au198levels.png Graphic file (type png)
 <use images/au198levels.png>
-Package pdftex.def Info: images/au198levels.png  used on input line 587.
+Package pdftex.def Info: images/au198levels.png  used on input line 568.
 (pdftex.def)             Requested size: 455.24411pt x 555.17027pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 591.
+               Default added (so using `!tbp') on input line 572.
 
-<images/cu66lbetadecay.png, id=743, 650.43pt x 602.25pt>
+<images/cu66lbetadecay.png, id=735, 650.43pt x 602.25pt>
 File: images/cu66lbetadecay.png Graphic file (type png)
 <use images/cu66lbetadecay.png>
-Package pdftex.def Info: images/cu66lbetadecay.png  used on input line 593.
+Package pdftex.def Info: images/cu66lbetadecay.png  used on input line 574.
 (pdftex.def)             Requested size: 455.24411pt x 421.53535pt.
-<res/Au_AnzSpectr.pdf, id=744, 569.12625pt x 325.215pt>
+<res/Au_AnzSpectr.pdf, id=736, 569.12625pt x 325.215pt>
 File: res/Au_AnzSpectr.pdf Graphic file (type pdf)
 <use res/Au_AnzSpectr.pdf>
-Package pdftex.def Info: res/Au_AnzSpectr.pdf  used on input line 599.
+Package pdftex.def Info: res/Au_AnzSpectr.pdf  used on input line 580.
 (pdftex.def)             Requested size: 455.24411pt x 260.1525pt.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
 [22 <./res/Ag3AuS2_8_5MeVFonClasic.pdf, page is rotated 90 degrees> <./res/AuAg
-S28MeV.pdf, page is rotated 90 degrees>] [23 <./images/au198levels.png>]
+S28MeV.pdf, page is rotated 90 degrees>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
+ [23 <./images/au198levels.png>]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 585.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 585.
+
 [24 <./images/cu66lbetadecay.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 587.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 587.
+
+(D:\install\texstudio\miktex\2018\tex\latex\ucs\uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-) [25pdfTeX warning (ext4): destination with the same identifier (name{cite.1})
- has been already used, duplicate ignored
+)
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 596.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 596.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 596.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 596.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) 
+has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.615 	\bibitem{1}
+l.596 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.615 	\bibitem{1}
+l.596 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.615 	\bibitem{1}
+l.596 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
  <./res/Au_AnzSpectr.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): de
 stination with the same identifier (name{cite.1}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.615 	\bibitem{1}
+l.596 	\bibitem{1}
                    \textit{–í. –ú. –û–∫—Ä—É–≥–∏–Ω1, –ê. –£. –ö–∏–º} –û —Ä—É–...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.617 	\bibitem{1}
+l.598 	\bibitem{1}
                    \textit{–û–º–µ–ª—å—á—É–∫ –û.–í., –ó–∞–≥–Ω—ñ—Ç–∫–æ –í.–ú.,...
 
-Underfull \hbox (badness 1377) in paragraph at lines 617--618
+Underfull \hbox (badness 1377) in paragraph at lines 598--599
 \T2A/cmr/m/n/14.4 ¬Iƒ- ¿ –Œ-ƒŒ-¬»Ÿ  Œ-–»-—Õ»’  Œ-œ¿-À»Õ  »-à¬-—‹ »… Õ¿-
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 617--618
+Underfull \hbox (badness 5622) in paragraph at lines 598--599
 \T2A/cmr/m/n/14.4 ÷IŒ-Õ¿À‹-Õ»… ”ÕI-¬≈–-—»-“≈“ IÃ≈-ÕI “¿-–¿-—¿ ÿ≈¬-◊≈Õ- ¿
  []
 
@@ -1483,91 +1792,104 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.618 	\bibitem{1}
+l.599 	\bibitem{1}
                    \textit{Experimental Nuclear Reaction Data}pdfTeX warning (e
 xt4): destination with the same identifier (name{cite.1}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.619 	\bibitem{1}
+l.600 	\bibitem{1}
                    \textit{O. A. Wasson, R. E. Chrien, M. R. Bhat, M. A. Lon...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.620 	\bibitem{1}
+l.601 	\bibitem{1}
                    \textit{	I.A.Kondurov, A.I.Egorov, M.Kaminker, E.M.Korotk...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.621 	\bibitem{1}
+l.602 	\bibitem{1}
                    \textit{ Geant4 Collaboration } Book For Application Deve...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.623 	\bibitem{1}
+l.604 	\bibitem{1}
                    \textit{ Alexander Howard, Gunter Folger, Jose Manuel Que...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.624 	\bibitem{1}
+l.605 	\bibitem{1}
                    \textit{H¬¥ector Ren¬¥e, Vega-Carrillo Celia, Torres-Muhe...
 
-Underfull \hbox (badness 3724) in paragraph at lines 624--625
-[]\T2A/cmr/m/it/14.4 H^^Aector Ren^^Ae, Vega-Carrillo Celia, Torres-Muhech, Uni
--versi-dad
+Underfull \hbox (badness 3724) in paragraph at lines 605--606
+[]\T2A/cmr/m/it/14.4 Hector Rene, Vega-Carrillo Celia, Torres-Muhech, Uni-ver
+si-dad
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.625 	\bibitem{1}
+l.606 	\bibitem{1}
                    \textit{Donella H. Meadows,	Dennis L. Meadows, Jrgen Rand...
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 611.
 [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 630.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
- (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 611.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 611.
+ (report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 611.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 611.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 829B7CD53BFDE524DBE16E920124FEB6;4178.
+(rerunfilecheck)             Checksum: 1420EFA3A0ADDC8CEB7D44BF8C866633;4199.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 630.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 611.
  ) 
 Here is how much of TeX's memory you used:
- 25997 strings out of 481239
- 447688 string characters out of 5920377
- 678280 words of memory out of 5000000
- 40678 multiletter control sequences out of 15000+600000
- 553756 words of font info for 65 fonts, out of 8000000 for 9000
+ 25292 strings out of 492973
+ 432652 string characters out of 3133763
+ 485003 words of memory out of 3000000
+ 28635 multiletter control sequences out of 15000+200000
+ 24717 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,102p,1469b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
-/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf/fonts/enc/dvips/cm
--super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
-x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
-1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on report.pdf (30 pages, 1169182 bytes).
+ 62i,12n,96p,1471b,812s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lab
+x1728.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecbi1440.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecti1440.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\User\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\User\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labi1440.pk> <C:\Users\User\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\
+User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:
+\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.
+pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
+bx1440.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dp
+i600\larm1440.pk><D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<D:/install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/
+install/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/inst
+all/texstudio/miktex/2018/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (30 pages, 1261145 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 1528 PDF objects out of 1728 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
  377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
