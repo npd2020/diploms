@@ -3,30 +3,34 @@
    auto mg = new TMultiGraph;
   // mg->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
   // mg->GetYaxis()->SetTitle("Counts/Neutron");
-
-   TGraph * fon = new TGraph("fon.txt");
+/*
+   TGraph * fon = new TGraph("graph.txt");
    fon->SetTitle("HPGe Background");
    fon->SetLineColor(kBlue);
    fon->SetLineWidth(3);
    // fon->GetYaxis()->SetRangeUser(1, 7500);
    mg->Add( fon );
-
-   TGraph * gr = new TGraph("must.txt");
+*/
+   TGraph * gr = new TGraph("graph.txt");
    gr->SetTitle("HPGe Ag3AuS2");
-   gr->SetLineColor(kRed);
+   gr->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
+   gr->GetYaxis()->SetTitle("Counts / Neutron");
+   //gr->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
+   //gr->GetYaxis()->SetRangeUser(1, 300);
+   gr->Draw("ALL");
+   // gr->SetLineColor(kRed);
    // gr->GetYaxis()->SetRangeUser(1, 7500);
-   mg->Add( gr );
+   // mg->Add( gr );
 
    // gr->GetListOfFunctions()->Add(gFit);
    // mg->Add(gFit);
-
+	/*
    mg->GetXaxis()->SetTitle("E_{#gamma} (MeV)");
    mg->GetYaxis()->SetTitle("Counts / Neutron");
-   //mg->GetYaxis()->SetRangeUser(1*std::pow(10, -9), 8*std::pow(10, -6));
-   mg->GetYaxis()->SetRangeUser(1, 4500);
-   mg->Draw("ALL");
+   // mg->GetYaxis()->SetRangeUser(1*std::pow(10, -11), 8*std::pow(10, -6));
+   mg->Draw("ALL");*/
 
-   canvas->BuildLegend();
+   // canvas->BuildLegend();
    
    return canvas;
 }
